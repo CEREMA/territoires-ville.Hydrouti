@@ -1,0 +1,59 @@
+<html><head><META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>Les &laquo;&nbsp;Bassins de d&eacute;cantation&nbsp;&raquo;</title><link href="chmicons/certu.css" rel="stylesheet" type="text/css"><meta content="DocBook XSL Stylesheets V1.73.2" name="generator"><meta name="keywords" content="hydrouti, hydrologie, hydraulique, bassins versants, chute, syphon, d&eacute;versoir d'orage, station de pompage"><link rel="start" href="index.html" title="Hydrouti 1.1"><link rel="up" href="ch03.html" title="Chapitre&nbsp;3.&nbsp;Exemples d'utilisation"><link rel="prev" href="ch03s08.html" title="&laquo;&nbsp;Les D&eacute;versoirs d'orage &agrave; ouverture de radier&nbsp;&raquo;"><link rel="next" href="ch03s10.html" title="Les &laquo;&nbsp;Bassins de r&eacute;tention pluviale&nbsp;&raquo;"></head><body><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h2 class="title"><a name="DecantationExemple"></a>Les &laquo;&nbsp;<span class="quote">Bassins de d&eacute;cantation</span>&nbsp;&raquo;</h2></div></div></div><div class="toc"><dl><dt><span class="section"><a href="ch03s09.html#N135A3">Consultation de l'exemple &laquo; D&eacute;mo D&eacute;cantation &raquo;</a></span></dt><dt><span class="section"><a href="ch03s09.html#N135BE">Donn&eacute;es n&eacute;cessaires au calcul</a></span></dt><dt><span class="section"><a href="ch03s09.html#N135F9">Calcul de dimensionnement</a></span></dt><dt><span class="section"><a href="ch03s09.html#N13723">Fen&ecirc;tre graphique</a></span></dt></dl></div><pre class="programlisting">Manuel utilisateur : <a class="link" href="ch02s09.html" title="Les &laquo;&nbsp;Bassins de dessablement ou d&eacute;cantation&nbsp;&raquo;">Les Bassins de dessablement ou d&eacute;cantation</a></pre><p>Ce module permet de dimensionner un bassin de d&eacute;cantation.</p><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h3 class="title"><a name="N135A3"></a>Consultation de l'exemple &laquo; D&eacute;mo D&eacute;cantation &raquo;</h3></div></div></div><p>L'exemple de calcul de dimensionnement d'un bassin de d&eacute;cantation qui suit correspond &agrave; l'exemple &laquo; D&eacute;mo D&eacute;cantation &raquo;. </p><p>Pour l'ouvrir, il faut cliquer sur ouvrir dans le menu &laquo; Bassin de d&eacute;cantation &raquo;, </p><div class="mediaobject"><img src="images/img141.png"></div><p>
+    </p><p>ensuite s&eacute;lectionner &laquo; D&eacute;mo D&eacute;cantation &raquo; dans la fen&ecirc;tre qui vient d'appara&icirc;tre</p><div class="mediaobject"><img src="images/img142.png"></div><p>
+    </p><p>et bien s&ucirc;r cliquer sur le bouton &laquo; OK &raquo; pour valider votre choix.</p></div><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h3 class="title"><a name="N135BE"></a>Donn&eacute;es n&eacute;cessaires au calcul</h3></div></div></div><p>Il faut renseigner Hydrouti sur un minimum de valeurs caract&eacute;ristiques du probl&egrave;me &agrave; r&eacute;soudre. Les valeurs prises en compte pour notre exemple sont pr&eacute;sent&eacute;es sur la figure qui suit :</p><div class="mediaobject"><img src="images/img143.png"></div><p>
+    </p><div class="itemizedlist"><ul><li><p><span class="strong"><strong>D&eacute;bit &agrave; d&eacute;canter</strong></span> :</p><p class="lineBreak">Il faut saisir le d&eacute;bit arrivant dans le bassin en m3/s.</p></li><li><p><span class="strong"><strong>Taille des particules &agrave; d&eacute;canter</strong></span> :</p><p class="lineBreak">Il est n&eacute;cessaire de caract&eacute;riser les particules transport&eacute;es par l'effluent, afin de conna&icirc;tre leur vitesse de chute. Toutes les particules d'un diam&egrave;tre sup&eacute;rieur &agrave; celui saisi seront pi&eacute;g&eacute;es dans le bassin.</p></li><li><p><span class="strong"><strong>Rapport l/h</strong></span> :</p><p class="lineBreak">Ce rapport, qu'on note r, va permettre de d&eacute;terminer la largeur l et la hauteur d'eau h &agrave; l'entr&eacute;e du bassin.</p></li><li><p><span class="strong"><strong>Pourcentage de s&eacute;dimentation</strong></span> :</p><p class="lineBreak">Il repr&eacute;sente le pourcentage de particules th&eacute;oriquement pi&eacute;g&eacute;es par le bassin.</p></li><li><p><span class="strong"><strong>Vitesse horizontale des particules</strong></span> :</p><p class="lineBreak">L'utilisateur doit &eacute;galement fixer la vitesse horizontale des particules dans le bassin.</p></li></ul></div></div><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h3 class="title"><a name="N135F9"></a>Calcul de dimensionnement</h3></div></div></div><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h4 class="title"><a name="N135FC"></a>Longueur du bassin</h4></div></div></div><p>Pour qu'une particule ayant une vitesse de chute V (d&eacute;termin&eacute;e &agrave; partir du diam&egrave;tre des particules &agrave; s&eacute;dimenter), prise dans un fluide anim&eacute; d'une vitesse constante horizontale V<sub>h</sub> et situ&eacute;e &agrave; une hauteur h &agrave; l'entr&eacute;e du bassin, puisse se d&eacute;poser, il faut que la longueur L soit telle que :</p><p><span class="inlinemediaobject"><img src="images/Objet96.png"></span>
+    </p></div><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h4 class="title"><a name="N1360C"></a>Facteur de majoration k en fonction du pourcentage de s&eacute;dimentation</h4></div></div></div><p>En raison des approximations du mod&egrave;le, on corrige cette va-leur en la multipliant par le facteur de majoration de Kalbskopf :</p><p><span class="inlinemediaobject"><img src="images/Objet97.png"></span>
+    </p><p>Le facteur de Kalbskopf d&eacute;pend du pourcentage de s&eacute;dimentation et de la taille des particules &agrave; d&eacute;canter :</p><div class="informaltable"><table border="1"><colgroup><col width="340"><col width="75"><col width="75"><col width="75"></colgroup><tbody><tr><td align="left">
+      <p>Granulom&eacute;trie d (en mm)</p>
+     </td><td align="center">
+      <p>100%</p>
+     </td><td align="center">
+      <p>90%</p>
+     </td><td align="center">
+      <p>85%</p>
+     </td></tr><tr><td align="left">
+      <p>0.125</p>
+     </td><td align="center">
+      <p>5.06</p>
+     </td><td align="center">
+      <p>3.28</p>
+     </td><td align="center">
+      <p>2.75</p>
+     </td></tr><tr><td align="left">
+      <p>0.160</p>
+     </td><td align="center">
+      <p>4.67</p>
+     </td><td align="center">
+      <p>3.07</p>
+     </td><td align="center">
+      <p>2.40</p>
+     </td></tr><tr><td align="left">
+      <p>0.200</p>
+     </td><td align="center">
+      <p>4.12</p>
+     </td><td align="center">
+      <p>2.43</p>
+     </td><td align="center">
+      <p>1.92</p>
+     </td></tr><tr><td align="left">
+      <p>0.250</p>
+     </td><td align="center">
+      <p>3.45</p>
+     </td><td align="center">
+      <p>2.04</p>
+     </td><td align="center">
+      <p>1.59</p>
+     </td></tr><tr><td align="left">
+      <p>0.315</p>
+     </td><td align="center">
+      <p>2.84</p>
+     </td><td align="center">
+      <p>1.75</p>
+     </td><td align="center">
+      <p>1.48</p>
+     </td></tr></tbody></table></div><p>Dans le cas pr&eacute;sent, nous obtenons une vitesse de chute de 2.55 cm/s et un facteur de Kalbskopf &eacute;gal &agrave; 2.04. </p><p><span class="inlinemediaobject"><img src="images/img144.png"></span>
+    </p><p>Nous en d&eacute;duisons donc la longueur d&eacute;finitive du bassin :</p><p><span class="inlinemediaobject"><img src="images/img145.png"></span>
+    </p></div><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h4 class="title"><a name="N1370C"></a>Largeur du bassin et hauteur d'eau &agrave; son entr&eacute;e</h4></div></div></div><p>Connaissant, le rapport l sur h, le d&eacute;bit et la vitesse horizon-tale, on en d&eacute;duit facilement la largeur l du bassin et la hauteur d'eau h &agrave; l'entr&eacute;e du bassin :</p><p><span class="inlinemediaobject"><img src="images/Objet98.png"></span>
+    </p><p>Pour notre exemple, nous obtenons une largeur de 3.87 m et une hauteur d'eau h &eacute;gale &agrave; 0.77 m :</p><p><span class="inlinemediaobject"><img src="images/img146.png"></span>
+    </p></div></div><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h3 class="title"><a name="N13723"></a>Fen&ecirc;tre graphique</h3></div></div></div><p>Dans la fen&ecirc;tre graphique, Hydrouti trace le bassin en 3D, et indique les 3 grandeurs caract&eacute;ristiques :</p><div class="itemizedlist"><ul><li><p>Longueur,</p></li><li><p>Largeur,</p></li><li><p>Hauteur d'eau &agrave; l'entr&eacute;e.</p></li></ul></div><div class="mediaobject"><img src="images/img147.png"></div><p>
+    </p></div></div></body></html>

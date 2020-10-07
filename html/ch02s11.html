@@ -1,0 +1,109 @@
+<html><head><META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>Les &laquo;&nbsp;Bassins de stockage/restitution&nbsp;&raquo;</title><link href="chmicons/certu.css" rel="stylesheet" type="text/css"><meta content="DocBook XSL Stylesheets V1.73.2" name="generator"><meta name="keywords" content="hydrouti, hydrologie, hydraulique, bassins versants, chute, syphon, d&eacute;versoir d'orage, station de pompage"><link rel="start" href="index.html" title="Hydrouti 1.1"><link rel="up" href="ch02.html" title="Chapitre&nbsp;2.&nbsp;Manuel Utilisateur"><link rel="prev" href="ch02s10.html" title="Les &laquo;&nbsp;Bassins de r&eacute;tention&nbsp;&raquo;"><link rel="next" href="ch03.html" title="Chapitre&nbsp;3.&nbsp;Exemples d'utilisation"></head><body><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h2 class="title"><a name="StockageManuelUtil"></a>Les &laquo;&nbsp;<span class="quote">Bassins de stockage/restitution</span>&nbsp;&raquo;</h2></div></div></div><div class="toc"><dl><dt><span class="section"><a href="ch02s11.html#StockageOrigineMethode">Origine de la m&eacute;thode - domaine de garantie</a></span></dt><dt><span class="section"><a href="ch02s11.html#StockagePresentationMethodeCalcul">Pr&eacute;sentation de la m&eacute;thode de calcul</a></span></dt></dl></div><pre class="programlisting">Voir exemple : <a class="link" href="ch03s11.html" title="Les &laquo;&nbsp;Bassins de stockage/restitution&nbsp;&raquo;">Les Bassins de stockage/restitution</a></pre><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h3 class="title"><a name="StockageOrigineMethode"></a>Origine de la m&eacute;thode - domaine de garantie</h3></div></div></div><p>La mise en &#339;uvre de cette m&eacute;thode n&eacute;cessite la d&eacute;termination du d&eacute;bit de r&eacute;f&eacute;rence. Ce d&eacute;bit est directement d&eacute;pendant de l'intensit&eacute; de pluie de r&eacute;f&eacute;rence I<sub>r&eacute;f</sub>, qui doit &ecirc;tre choisie par le projeteur : malheureusement, le choix de ce param&egrave;tre est d&eacute;licat.</p><p>En effet, cette m&eacute;thode a &eacute;t&eacute; mise au point par l'ATV, en &eacute;tudiant uniquement le cas du Land &laquo; Baden-W&uuml;rttemberg &raquo;. Ainsi, depuis 1973, l'intensit&eacute; de pluie de r&eacute;f&eacute;rence est fix&eacute;e &agrave; 15 l/s/ha dans cette r&eacute;gion, ind&eacute;pendamment de la qualit&eacute; et du d&eacute;bit des cours d'eau. De m&ecirc;mes &eacute;tudes ont &eacute;t&eacute; effectu&eacute;es dans le Bas-Rhin et ont amen&eacute;, vers la fin des ann&eacute;es 1980, la DDAF &agrave; recommander une valeur de 10 &agrave; 15 l/s/ha. Cependant, pour les autres r&eacute;gions, aucune &eacute;tude n'a &eacute;t&eacute; effectu&eacute;e pour valider la m&eacute;thode utilis&eacute;e dans ce module : l'extension de son utilisation n'est donc pas garantie.</p><p>Mais quelques indicateurs peuvent aider dans la d&eacute;termination de l'intensit&eacute; de pluie de r&eacute;f&eacute;rence. Elle doit &ecirc;tre fond&eacute;e sur l'analyse tr&egrave;s d&eacute;taill&eacute;e de diff&eacute;rents param&egrave;tres :</p><div class="itemizedlist"><ul><li><p>Fr&eacute;quence, intensit&eacute;, dur&eacute;e des pluies,</p></li><li><p>Objectifs de qualit&eacute; des cours d'eau,</p></li><li><p>D&eacute;bit d'&eacute;tiage des cours d'eau,</p></li><li><p>Capacit&eacute; d'auto-&eacute;puration des cours d'eau,</p></li><li><p>Charge de l'effluent,</p></li><li><p>Capacit&eacute; des r&eacute;seaux.</p></li></ul></div></div><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h3 class="title"><a name="StockagePresentationMethodeCalcul"></a>Pr&eacute;sentation de la m&eacute;thode de calcul</h3></div></div></div><p>C'est donc le projeteur qui d&eacute;terminera indirectement le volume du bassin de stockage/restitution. Le volume se d&eacute;duit :</p><p><span class="inlinemediaobject"><img src="images/Objet50.png"></span>
+    </p><div class="informaltable"><table border="1"><colgroup><col width="102"><col width="411"></colgroup><tbody><tr><td>
+      <p>C</p>
+     </td><td>
+      <p>le coefficient de ruissellement en %</p>
+     </td></tr><tr><td>
+      <p>S</p>
+     </td><td>
+      <p>la surface en ha</p>
+     </td></tr><tr><td>
+      <p>aT</p>
+     </td><td>
+      <p>un facteur sans dimension li&eacute; au temps de concentration Tc (cf. Tableau &laquo;&nbsp;<span class="quote"><a class="link" href="ch02s11.html#refTable6" title="Tableau&nbsp;2.7.&nbsp;Bassin de stockage/restitution - Facteur aT">Bassin de stockage/restitution - Facteur aT</a></span>&nbsp;&raquo; ),</p>
+     </td></tr><tr><td>
+      <p>V<sub>r</sub></p>
+     </td><td>
+      <p>le volume relatif du bassin li&eacute; &agrave; l'intensit&eacute; de pluie de r&eacute;f&eacute;rence en m3/ha (cf. graphique &laquo;&nbsp;<span class="quote"><a class="link" href="ch02s11.html#refIllustration27" title="Figure&nbsp;2.28.&nbsp;Bassin de stockage/restitution - Volume relatif">Bassin de stockage/restitution - Volume relatif</a></span>&nbsp;&raquo; )</p>
+     </td></tr><tr><td>
+      <p>V</p>
+     </td><td>
+      <p>en m3</p>
+     </td></tr></tbody></table></div><div class="table"><a name="refTable6"></a><div class="table-contents"><table summary="Bassin de stockage/restitution - Facteur aT" border="1"><colgroup><col width="377"><col width="188"></colgroup><tbody><tr><td align="center">
+      <p>Temps de concentration Tc (min)</p>
+     </td><td align="center">
+      <p>Facteur aT</p>
+     </td></tr><tr><td align="center">
+      <p>10</p>
+     </td><td align="center">
+      <p>1.25</p>
+     </td></tr><tr><td align="center">
+      <p>15</p>
+     </td><td align="center">
+      <p>1.48</p>
+     </td></tr><tr><td align="center">
+      <p>20</p>
+     </td><td align="center">
+      <p>1.63</p>
+     </td></tr><tr><td align="center">
+      <p>25</p>
+     </td><td align="center">
+      <p>1.74</p>
+     </td></tr><tr><td align="center">
+      <p>30</p>
+     </td><td align="center">
+      <p>1.82</p>
+     </td></tr><tr><td align="center">
+      <p>35</p>
+     </td><td align="center">
+      <p>1.88</p>
+     </td></tr><tr><td align="center">
+      <p>40</p>
+     </td><td align="center">
+      <p>1.93</p>
+     </td></tr><tr><td align="center">
+      <p>50</p>
+     </td><td align="center">
+      <p>2.02</p>
+     </td></tr><tr><td align="center">
+      <p>60</p>
+     </td><td align="center">
+      <p>2.06</p>
+     </td></tr><tr><td align="center">
+      <p>80</p>
+     </td><td align="center">
+      <p>2.12</p>
+     </td></tr><tr><td align="center">
+      <p>100</p>
+     </td><td align="center">
+      <p>2.17</p>
+     </td></tr><tr><td align="center">
+      <p>120</p>
+     </td><td align="center">
+      <p>2.20</p>
+     </td></tr><tr><td align="center">
+      <p>180</p>
+     </td><td align="center">
+      <p>2.25</p>
+     </td></tr></tbody></table></div><p class="title"><b>Tableau&nbsp;2.7.&nbsp;Bassin de stockage/restitution - Facteur aT</b></p></div><br class="table-break"><div class="figure"><a name="refIllustration27"></a><div class="figure-contents"><div class="mediaobject"><img src="images/img050.png" alt="Bassin de stockage/restitution - Volume relatif"></div></div><p class="title"><b>Figure&nbsp;2.28.&nbsp;Bassin de stockage/restitution - Volume relatif</b></p></div><br class="figure-break"><p>
+     
+    </p><p><span class="inlinemediaobject"><img src="images/Objet51.png"></span>
+    </p><div class="informaltable"><table border="1"><colgroup><col width="102"><col width="411"></colgroup><tbody><tr><td>
+      <p>C</p>
+     </td><td>
+      <p>le coefficient de ruissellement en %</p>
+     </td></tr><tr><td>
+      <p>S</p>
+     </td><td>
+      <p>la surface en ha</p>
+     </td></tr><tr><td>
+      <p>QPluieAval</p>
+     </td><td>
+      <p>le d&eacute;bit de pluie admissible &agrave; l'aval du bassin</p>
+     </td></tr></tbody></table></div><p>D'autre part, dans la directive allemande destin&eacute;e au Land Baden-W&uuml;rttemberg, des limites d'application sont indiqu&eacute;es pour maintenir une bonne efficacit&eacute; de l'installation. Les principales contraintes hydrauliques sont :</p><div class="itemizedlist"><ul><li><p>Une charge hydraulique (d&eacute;bit ramen&eacute; &agrave; la surface du bassin) inf&eacute;rieure &agrave; 10 m3/h.m2,</p></li><li><p>Un temps de s&eacute;jour minimum, fonction de l'intensit&eacute; de pluie de r&eacute;f&eacute;rence donn&eacute;e par le tableau 2, qui suit :</p></li></ul></div><div class="table"><a name="refTable7"></a><div class="table-contents"><table summary="Temps de s&eacute;jour minimum" border="1"><colgroup><col width="188"><col width="188"></colgroup><tbody><tr><td align="center">
+      <p>Intensit&eacute; de pluie de r&eacute;f&eacute;rence en l/s.ha</p>
+     </td><td align="center">
+      <p>Temps de s&eacute;jour minimum en min</p>
+     </td></tr><tr><td align="center">
+      <p>30</p>
+     </td><td align="center">
+      <p>10</p>
+     </td></tr><tr><td align="center">
+      <p>15</p>
+     </td><td align="center">
+      <p>15</p>
+     </td></tr><tr><td align="center">
+      <p>10</p>
+     </td><td align="center">
+      <p>20</p>
+     </td></tr></tbody></table></div><p class="title"><b>Tableau&nbsp;2.8.&nbsp;Temps de s&eacute;jour minimum</b></p></div><br class="table-break"><div class="itemizedlist"><ul><li><p>Un temps de s&eacute;jour sup&eacute;rieur &agrave; 20 minutes n'apporte aucun soulagement notable &agrave; l'&eacute;missaire,</p></li><li><p>La vitesse horizontale d'&eacute;coulement ne doit pas d&eacute;passer 5 cm/s.</p></li></ul></div></div></div></body></html>

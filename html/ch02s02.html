@@ -1,0 +1,362 @@
+<html><head><META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>Les &laquo;&nbsp;Bassins Versants&nbsp;&raquo;</title><link href="chmicons/certu.css" rel="stylesheet" type="text/css"><meta content="DocBook XSL Stylesheets V1.73.2" name="generator"><meta name="keywords" content="hydrouti, hydrologie, hydraulique, bassins versants, chute, syphon, d&eacute;versoir d'orage, station de pompage"><link rel="start" href="index.html" title="Hydrouti 1.1"><link rel="up" href="ch02.html" title="Chapitre&nbsp;2.&nbsp;Manuel Utilisateur"><link rel="prev" href="ch02s01.html" title="Lancement et interface de Hydrouti"><link rel="next" href="ch02s03.html" title="Les &laquo;&nbsp;Chutes&nbsp;&raquo;"></head><body><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h2 class="title"><a name="BassinVersantManuelUtil"></a>Les &laquo;&nbsp;<span class="quote">Bassins Versants</span>&nbsp;&raquo;</h2></div></div></div><div class="toc"><dl><dt><span class="section"><a href="ch02s02.html#N10236">D&eacute;finitions</a></span></dt><dt><span class="section"><a href="ch02s02.html#BVCaracteristiques">Caract&eacute;ristiques d'un BV</a></span></dt><dt><span class="section"><a href="ch02s02.html#N103E2">Caract&eacute;ristiques des pluies</a></span></dt><dt><span class="section"><a href="ch02s02.html#N1048F">M&eacute;thodes d'&eacute;valuation des d&eacute;bits</a></span></dt></dl></div><pre class="programlisting">Voir exemple : <a class="link" href="ch03s02.html" title="Les &laquo;&nbsp;Bassins Versants&nbsp;&raquo;">Les Bassins Versants</a></pre><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h3 class="title"><a name="N10236"></a>D&eacute;finitions</h3></div></div></div><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h4 class="title"><a name="BVTypeBassin"></a>Type de bassins</h4></div></div></div><p>Les bassins versants peuvent &ecirc;tre distingu&eacute;s en deux types :</p><p>Les <span class="strong"><strong>bassins versants &laquo; urbains &raquo;</strong></span> : ils pr&eacute;sentent une imperm&eacute;abilisation sup&eacute;rieure &agrave; 20 %, qui conditionne exclusivement le volume de la lame d'eau ruissel&eacute;e.</p><p>Les <span class="strong"><strong>bassins versants &laquo; ruraux &raquo;</strong></span> pr&eacute;sentent une imperm&eacute;abilisation inf&eacute;rieure &agrave; 20 %. Le volume ruissel&eacute; d&eacute;pend de nombreux facteurs variables dans le temps, tels que le couvert v&eacute;g&eacute;tal, l'ant&eacute;c&eacute;dent pluviom&eacute;trique, les pratiques culturales, etc.</p></div><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h4 class="title"><a name="BVDebitsCaracteristiques"></a>D&eacute;bits caract&eacute;ristiques</h4></div></div></div><p>Sur un BV URBAIN, plusieurs d&eacute;bits peuvent &ecirc;tre caract&eacute;ris&eacute;s :</p><div class="itemizedlist"><ul><li><p>Le d&eacute;bit d'orage (Q<sub>ORA</sub>) correspond au d&eacute;bit de l'orage de fr&eacute;quence de d&eacute;passement retenue pour le dimensionnement des collecteurs (en r&egrave;gle g&eacute;n&eacute;rale on choisit une p&eacute;riode de retour de 10 ans).</p></li><li><p>Le d&eacute;bit de r&eacute;f&eacute;rence (Q<sub>REF</sub>) peut &ecirc;tre caract&eacute;ris&eacute; comme le d&eacute;bit limite de non-d&eacute;versement des syst&egrave;mes unitaires. Il est compos&eacute; du d&eacute;bit de temps sec et d'une part de d&eacute;bit d'eaux pluviales d&eacute;finies comme le d&eacute;bit de pluie de r&eacute;f&eacute;rence.</p></li><li><p>Le d&eacute;bit temps sec (Q<sub>TS</sub>) constitu&eacute; par le d&eacute;bit des rejets d'eaux us&eacute;es et le d&eacute;bit permanent d'eaux claires parasites (source, drains, infiltration, &hellip;).</p></li></ul></div><p>Sur un <span class="strong"><strong>BV RURAL</strong></span>, seul le d&eacute;bit d'orage (Q<sub>ORA</sub>) est caract&eacute;ris&eacute;.</p></div></div><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h3 class="title"><a name="BVCaracteristiques"></a>Caract&eacute;ristiques d'un BV</h3></div></div></div><p>D'un point de vue hydrologique, un bassin versant se caract&eacute;rise par sa r&eacute;action face &agrave; une sollicitation (des pr&eacute;cipitations). Cette r&eacute;action, mesur&eacute;e &agrave; l'exutoire du syst&egrave;me par l'observation de la quantit&eacute; d'eau qui s'&eacute;coule, permet d'&eacute;tablir un hydrogramme (repr&eacute;sentation du d&eacute;bit Q en fonction du temps).</p><div class="figure"><a name="refIllustration3"></a><div class="figure-contents"><div class="mediaobject"><img src="images/img005.png" alt="Caract&eacute;ristiques d'un bassin versant"></div></div><p class="title"><b>Figure&nbsp;2.4.&nbsp;Caract&eacute;ristiques d'un bassin versant</b></p></div><br class="figure-break"><p>
+     
+    Les caract&eacute;ristiques d'un bassin versant influencent fortement sa r&eacute;ponse hydrologique, et notamment le r&eacute;gime des &eacute;coulements en p&eacute;riode de crue ou d'&eacute;tiage.</p><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h4 class="title"><a name="BVCoefficientRuisselement"></a>Coefficient de ruissellement Cr</h4></div></div></div><p>La capacit&eacute; d'un bassin versant &agrave; ruisseler est caract&eacute;ris&eacute;e par le coefficient de ruissellement qui est tr&egrave;s souvent utilis&eacute; en hydrologie de surface. Son calcul et son emploi sont simples, mais notons qu'il peut conduire &agrave; commettre de grossi&egrave;res erreurs. Ce coefficient est d&eacute;fini comme &eacute;tant le rapport du volume d'eau ruissel&eacute; sur le volume d'eau total pr&eacute;cipit&eacute; sur le BV.</p><div class="figure"><a name="refIllustration4"></a><div class="figure-contents"><div class="mediaobject"><img src="images/CoeffRuissemlement.png" alt="Coefficient de ruissellement"></div></div><p class="title"><b>Figure&nbsp;2.5.&nbsp;Coefficient de ruissellement</b></p></div><br class="figure-break"><p>
+     
+    </p><p>En l'absence de mesure (cas le plus fr&eacute;quent) sur les bassins de type Urbain, on utilise, en assainissement urbain, le rapport des surfaces imperm&eacute;ables raccord&eacute;es au r&eacute;seau &agrave; la surface totale du bassin versant.</p><div class="figure"><a name="refIllustration5"></a><div class="figure-contents"><div class="mediaobject"><img src="images/CoefImpermeabilisation.png" alt="Coefficient d'imperm&eacute;abilisation"></div></div><p class="title"><b>Figure&nbsp;2.6.&nbsp;Coefficient d'imperm&eacute;abilisation</b></p></div><br class="figure-break"><p>
+     
+    </p><p>Cette &eacute;valuation sous-entend que les pertes initiales, dues essentiellement au stockage de l'eau dans les d&eacute;pressions (0,1 &agrave; 2 mm) et les effets des surfaces perm&eacute;ables en liaison avec le r&eacute;seau sont n&eacute;gligeables, ceci n'&eacute;tant plus le cas g&eacute;n&eacute;ral du fait du d&eacute;veloppement des techniques alternatives (chauss&eacute;es r&eacute;servoir, noues, &hellip;).</p><p>Pour les bassins non urbains, ce coefficient est plus difficile &agrave; estimer et subit de fortes variabilit&eacute;s dans le temps. Les pertes initiales, la potentialit&eacute; d'infiltration conditionnent la r&eacute;ponse volum&eacute;trique du BV.</p><div class="figure"><a name="refIllustration6"></a><div class="figure-contents"><div class="mediaobject"><img src="images/img006.png" alt="Tableaux des coefficients de ruissellement"></div></div><p class="title"><b>Figure&nbsp;2.7.&nbsp;Tableaux des coefficients de ruissellement</b></p></div><br class="figure-break"><p>
+     
+    </p><p>La r&eacute;action hydrologique d'un bassin versant est caract&eacute;ris&eacute;e par un hydrogramme mesur&eacute; &agrave; son exutoire repr&eacute;sentant la variation des d&eacute;bits en fonction du temps. La grandeur et la forme de l'hydrogramme de crue r&eacute;sultant d'une pluie donn&eacute;e sont fonction de la vitesse et de l'intensit&eacute; de la r&eacute;action caract&eacute;ris&eacute;e notamment par le temps de concentration Tc.</p></div><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h4 class="title"><a name="BVTempsConcentration"></a>Temps de concentration Tc</h4></div></div></div><p>Le temps de concentration des eaux sur un bassin versant se d&eacute;finit comme le temps mis par une goutte d'eau tomb&eacute;e sur le point le plus &eacute;loign&eacute; (hydrologiquement) de l'exutoire pour y parvenir.</p><p>Cette valeur est influenc&eacute;e par diverses caract&eacute;ristiques morphologiques dont principalement :</p><div class="itemizedlist"><ul><li><p>la taille (surface),</p></li><li><p>la forme (surface et longueur),</p></li><li><p>et le relief du bassin (longueur et pente).</p></li></ul></div><p>A ces facteurs s'ajoutent encore le type de sol, le couvert v&eacute;g&eacute;tal et les caract&eacute;ristiques du r&eacute;seau hydrographique. </p></div><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h4 class="title"><a name="N102C9"></a>&Eacute;valuation du temps de concentration</h4></div></div></div><p>Elle peut &ecirc;tre r&eacute;alis&eacute;e par des formules empiriques ou par la m&eacute;thode dite "des vitesses" utilis&eacute;e couramment pour les projets d'assainissement routier.</p><p>
+            <span class="strong"><strong>Donn&eacute;es</strong></span>
+          </p><div class="informaltable"><table border="1"><colgroup><col width="64"><col width="257"></colgroup><tbody><tr><td>
+      <p>Tc</p>
+     </td><td>
+      <p>Temps de concentration,</p>
+     </td></tr><tr><td>
+      <p>A</p>
+     </td><td>
+      <p>Superficie du bassin versant,</p>
+     </td></tr><tr><td>
+      <p>P</p>
+     </td><td>
+      <p>Pente du bassin versant,</p>
+     </td></tr><tr><td>
+      <p>L</p>
+     </td><td>
+      <p>Longueur du bassin versant,</p>
+     </td></tr><tr><td>
+      <p>V</p>
+     </td><td>
+      <p>Vitesse d'&eacute;coulement.</p>
+     </td></tr></tbody></table></div><p><span class="strong"><strong>Formules empiriques</strong></span> : Tc est exprim&eacute; en mn</p><div class="table"><a name="refTable0"></a><div class="table-contents"><table summary="Tableau des formules empiriques des temps de concentration" border="1"><colgroup><col width="117"><col width="173"><col width="143"><col width="143"></colgroup><tbody><tr><td>
+      <p>NOM</p>
+     </td><td>
+      <p>Kirpich</p>
+     </td><td>
+      <p>Passini</p>
+     </td><td>
+      <p>Ventura</p>
+     </td></tr><tr><td>
+      <p>Formulation</p>
+     </td><td>
+      <p><span class="inlinemediaobject"><img src="images/Kirpich.png"></span>
+       </p>
+     </td><td>
+      <p><span class="inlinemediaobject"><img src="images/Passini.png"></span>
+       </p>
+     </td><td>
+      <p><span class="inlinemediaobject"><img src="images/Ventura.png"></span>
+       </p>
+     </td></tr><tr><td>
+      <p>Unit&eacute;s</p>
+     </td><td colspan="3">
+      <p>L : longueur en m, p : pente en m/m, A : surface en km2</p>
+     </td></tr><tr><td>
+      <p>Validit&eacute;</p>
+     </td><td>
+      
+     </td><td>
+      <p>A &gt; 40 km2</p>
+     </td><td>
+      <p>A &gt; 10 km2</p><p class="lineBreak">Pente faible ou moyenne</p>
+     </td></tr></tbody></table></div><p class="title"><b>Tableau&nbsp;2.1.&nbsp;Tableau des formules empiriques des temps de concentration</b></p></div><br class="table-break"><p>
+            <span class="strong"><strong>M&eacute;thode des vitesses</strong></span>
+          </p><p><span class="inlinemediaobject"><img src="images/MethodeVitesse.png"></span>
+    avec Tc en mn, L en m, V en m/s</p><div class="figure"><a name="refIllustration7"></a><div class="figure-contents"><div class="mediaobject"><img src="images/img007.png" alt="Tableau des vitesses"></div></div><p class="title"><b>Figure&nbsp;2.8.&nbsp;Tableau des vitesses</b></p></div><br class="figure-break"><p>
+     
+    <span class="strong"><strong>Tableau des vitesses</strong></span></p></div></div><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h3 class="title"><a name="N103E2"></a>Caract&eacute;ristiques des pluies</h3></div></div></div><p>L'application des techniques statistiques aux donn&eacute;es des relev&eacute;s pluviom&eacute;triques permet de d&eacute;terminer la fr&eacute;quence et les caract&eacute;ristiques des &eacute;v&eacute;nements pluvieux.</p><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h4 class="title"><a name="N103E7"></a>Fr&eacute;quence de d&eacute;passement - P&eacute;riode de retour</h4></div></div></div><p>Si au cours d'une p&eacute;riode d'observation de N ann&eacute;es, il a &eacute;t&eacute; enregistr&eacute; n averses d'intensit&eacute; sup&eacute;rieure ou &eacute;gale &agrave; i sur un intervalle de temps dt, la fr&eacute;quence de d&eacute;passement F de cette averse est d&eacute;finie par le rapport n/N. La p&eacute;riode de retour T est l'inverse de la fr&eacute;quence de d&eacute;passement; elle repr&eacute;sente le nombre d'ann&eacute;es au cours duquel l'averse surviendra, en moyenne, seulement une fois.</p></div><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h4 class="title"><a name="BVCourbesIntensiteDureeFrequence"></a>Courbes Intensit&eacute;-Dur&eacute;e-Fr&eacute;quence (IDF)</h4></div></div></div><p>Des d&eacute;pouillements complets des relev&eacute;s pour divers intervalles de temps Dt permettent d '&eacute;tablir des familles de courbes donnant, pour une p&eacute;riode de retour donn&eacute;e, l 'intensit&eacute; moyenne sur l 'intervalle de r&eacute;f&eacute;rence Dt.</p><div class="figure"><a name="refIllustration8"></a><div class="figure-contents"><div class="mediaobject"><img src="images/img008.png" alt="Courbes Intensit&eacute;-Dur&eacute;e-Fr&eacute;quence"></div></div><p class="title"><b>Figure&nbsp;2.9.&nbsp;Courbes Intensit&eacute;-Dur&eacute;e-Fr&eacute;quence</b></p></div><br class="figure-break"><p>
+     
+    </p><p>Diverses formules math&eacute;matiques permettent une repr&eacute;sentation de ces familles de courbes. Une des plus r&eacute;pandues est la formule de Montana :</p><div class="figure"><a name="refIllustration9"></a><div class="figure-contents"><div class="mediaobject"><img src="images/LoiMontana.png" alt="Loi de Montana"></div></div><p class="title"><b>Figure&nbsp;2.10.&nbsp;Loi de Montana</b></p></div><br class="figure-break"><p>
+     
+    </p><div class="informaltable"><table border="1"><colgroup><col width="143"><col width="336"></colgroup><tbody><tr><td>
+      <p>t</p>
+     </td><td>
+      <p>dur&eacute;e de l'averse en mn</p>
+     </td></tr><tr><td>
+      <p>a(T), b(T)</p>
+     </td><td>
+      <p>coefficients fonction de la pluviom&eacute;trie</p>
+     </td></tr><tr><td>
+      <p>i</p>
+     </td><td>
+      <p>intensit&eacute; de la pluie en mm/mn</p>
+     </td></tr></tbody></table></div><p>Ces analyses statistiques conduisent &agrave; des familles de param&egrave;tres variables d'une part suivant la p&eacute;riode de retour, mais d'autre part &eacute;galement suivant la dur&eacute;e des &eacute;v&eacute;nement pluvieux. Il peuvent en outre pr&eacute;senter des ordres de grandeur diff&eacute;rents (notamment pour a) selon les unit&eacute;s utilis&eacute;es.</p><p>Il est important de retenir pour le calcul la famille de param&egrave;tres adapt&eacute;e, faute de quoi des d&eacute;rives importantes peuvent &ecirc;tre relev&eacute;es au niveau des 2,r&eacute;sultats.</p><div class="tip"><table border="0" summary="Tip"><tr><td valign="top" align="center" rowspan="2" width="25"><img alt="[Astuce]" src="chmicons/tip.png"></td><th align="left">Astuce</th></tr><tr><td valign="top" align="left"><p>La d&eacute;finition des param&egrave;tres a et b de la loi de Montana est r&eacute;alis&eacute;e &agrave; l'aide de l'onglet &laquo;&nbsp;<span class="quote">Param&egrave;tres</span>&nbsp;&raquo;.</p></td></tr></table></div></div><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h4 class="title"><a name="BVPluieProjet"></a>Pluie de projet</h4></div></div></div><p>Les courbes IDF sont &eacute;galement employ&eacute;es pour construire des &laquo;&nbsp;<span class="quote">pluies de projet</span>&nbsp;&raquo;.</p><p>Une &laquo;&nbsp;<span class="quote">pluie de projet</span>&nbsp;&raquo; est une pluie fictive d&eacute;finie par un hy&eacute;togramme synth&eacute;tique et statistiquement repr&eacute;sentative des pluies r&eacute;elles, bien que jamais observ&eacute;e.</p><p>Le mod&egrave;le de pluie de projet couramment utilis&eacute; a &eacute;t&eacute; mis au point par Mr DESBORDES (Laboratoire d'Hydrologie Math&eacute;matique de Montpellier) suite &agrave; une analyse des deux longues s&eacute;ries d'observations disponibles en France (Montpellier Bel-Air et Paris Montsouris).</p><div class="figure"><a name="refIllustration10"></a><div class="figure-contents"><div class="mediaobject"><img src="images/img009.png" alt="Mod&egrave;le de pluie DESBORDES"></div></div><p class="title"><b>Figure&nbsp;2.11.&nbsp;Mod&egrave;le de pluie DESBORDES </b></p></div><br class="figure-break"><p>
+     
+    </p><p>La pluie de projet "Desbordes" est caract&eacute;ris&eacute;e par :</p><div class="itemizedlist"><ul><li><p>une dur&eacute;e totale de la pluie DP de l'ordre de 4 heures</p></li><li><p>une dur&eacute;e intense DM qui varie de 15 minutes &agrave; une heure selon la nature des bassins versants</p></li><li><p>la position de cette p&eacute;riode intense </p></li><li><p>les hauteurs HT pr&eacute;cipit&eacute;e sur la dur&eacute;e totale et HM pr&eacute;cipit&eacute;e au cours de la p&eacute;riode intense. Cette derni&egrave;re a la p&eacute;riode de retour T choisie pour la pluie.</p></li><li><p>une forme doublement triangulaire.</p></li></ul></div><p>Cette repr&eacute;sentation d'un &eacute;v&eacute;nement pluvieux est utilis&eacute; pour le calcul par la m&eacute;thode de l'hydrogramme (cf. &laquo;&nbsp;<span class="quote">chapitre </span>&nbsp;&raquo;&laquo;&nbsp;<span class="quote"><a class="link" href="ch02s02.html#BVMethodeHydrogramme" title="M&eacute;thode de l'hydrogramme">2.2.4.1.3</a></span>&nbsp;&raquo;&laquo;&nbsp;<span class="quote"> - </span>&nbsp;&raquo;&laquo;&nbsp;<span class="quote"><a class="link" href="ch02s02.html#BVMethodeHydrogramme" title="M&eacute;thode de l'hydrogramme">M&eacute;thode de l'hydrogramme</a></span>&nbsp;&raquo; ).</p></div></div><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h3 class="title"><a name="N1048F"></a>M&eacute;thodes d'&eacute;valuation des d&eacute;bits</h3></div></div></div><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h4 class="title"><a name="N10492"></a>Transformation pluie - d&eacute;bit</h4></div></div></div><p>Dans le cadre des &eacute;tudes d'hydrologie urbaine, la valeur pr&eacute;pond&eacute;rante &agrave; estimer reste le d&eacute;bit maximal de l'hydrogramme de ruissellement correspondant &agrave; une occurrence d'apparition donn&eacute;e (1, 2, 5, 10, [&hellip;], 100 ans).</p><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h5 class="title"><a name="BVMethodeRationnelle"></a>M&eacute;thode Rationnelle </h5></div></div></div><p>Plusieurs m&eacute;thodes sont disponibles : la plus ancienne est la M&eacute;thode Rationnelle qui utilise un mod&egrave;le simple de transformation de la pluie (d&eacute;crite par son intensit&eacute; iT), suppos&eacute;e uniforme et constante dans le temps, en un d&eacute;bit instantan&eacute; maximal &agrave; l'exutoire. Celui-ci est atteint lorsque l'ensemble du bassin contribue &agrave; la formation du d&eacute;bit, donc lorsque la dur&eacute;e de l'averse est &eacute;gale au temps de concentration du bassin versant.</p><div class="figure"><a name="refIllustration11"></a><div class="figure-contents"><div class="mediaobject"><img src="images/ForMethoRatio.png" alt="Formule M&eacute;thode Rationnelle"></div></div><p class="title"><b>Figure&nbsp;2.12.&nbsp;Formule M&eacute;thode Rationnelle</b></p></div><br class="figure-break"><p>
+     
+    </p><div class="informaltable"><table border="1"><colgroup><col width="120"><col width="362"></colgroup><tbody><tr><td>
+      <p>QpluieORA</p>
+     </td><td>
+      <p>d&eacute;bit de pluie d'orage par la m&eacute;thode rationnelle (m3/s)</p>
+     </td></tr><tr><td>
+      <p>Cr</p>
+     </td><td>
+      <p>coefficient de ruissellement</p>
+     </td></tr><tr><td>
+      <p>iT</p>
+     </td><td>
+      <p>intensit&eacute; de la pluie de p&eacute;riode de retour T (mm/mn)</p>
+     </td></tr><tr><td>
+      <p>A</p>
+     </td><td>
+      <p>surface du bassin versant (ha)</p>
+     </td></tr></tbody></table></div></div><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h5 class="title"><a name="BVMethodeSuperficielleCaquot"></a>M&eacute;thode superficielle de Caquot</h5></div></div></div><p>C'est une m&eacute;thode d&eacute;riv&eacute;e de la formule rationnelle qui s'applique exclusivement sur des surfaces urbaines drain&eacute;es. Elle permet de d&eacute;terminer directement le d&eacute;bit de pointe &agrave; partir des caract&eacute;ristiques du bassin versant et de l'averse. Sa formulation est la suivante :</p><p><span class="inlinemediaobject"><img src="images/MethodeCaquot.png"></span>
+    </p><div class="informaltable"><table border="1"><colgroup><col width="120"><col width="362"></colgroup><tbody><tr><td>
+      <p>QpluieORA</p>
+     </td><td>
+      <p>d&eacute;bit de pluie d'orage par la m&eacute;thode de Caquot en m3/s</p>
+     </td></tr><tr><td>
+      <p>I</p>
+     </td><td>
+      <p>pente hydraulique en m/m</p>
+     </td></tr><tr><td>
+      <p>C</p>
+     </td><td>
+      <p>coefficient d'imperm&eacute;abilisation</p>
+     </td></tr><tr><td>
+      <p>A</p>
+     </td><td>
+      <p>surface du bassin versant (ha)</p>
+     </td></tr><tr><td>
+      <p>m</p>
+     </td><td>
+      <p>coefficient correctif de forme</p>
+     </td></tr><tr><td>
+      <p>K, &#945;, &#946;, &#947;</p>
+     </td><td>
+      <p>coefficients d&eacute;pendant de la pluviom&eacute;trie et de la p&eacute;riode de retour</p>
+     </td></tr></tbody></table></div></div><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h5 class="title"><a name="BVMethodeHydrogramme"></a>M&eacute;thode de l'hydrogramme</h5></div></div></div><p>La m&eacute;thode consiste &agrave; calculer l'hydrogramme de ruissellement &agrave; partir d'une pluie de projet synth&eacute;tique du type &laquo;&nbsp;<span class="quote">double triangle</span>&nbsp;&raquo;. Les principes de construction de la pluie de projet initiale sont les suivants :</p><div class="itemizedlist"><ul><li><p>La dur&eacute;e de la p&eacute;riode intense est prise &eacute;gale au temps de concentration calcul&eacute; avec la formule de Kirpich.</p></li><li><p>La dur&eacute;e totale est prise &eacute;gale &agrave; 4 fois la dur&eacute;e intense.</p></li><li><p>Les hauteurs pr&eacute;cipit&eacute;es sur ces deux dur&eacute;es sont &eacute;valu&eacute;es par application de la loi de Montana.</p></li></ul></div><p>Cette proc&eacute;dure conduit &agrave; affecter le m&ecirc;me temps de retour sur les deux p&eacute;riodes caract&eacute;ristiques de la pluie (dur&eacute;e de la p&eacute;riode intense et dur&eacute;e totale). Cette d&eacute;marche ne refl&egrave;te pas la r&eacute;alit&eacute; et il conviendrait de retenir une p&eacute;riode de retour plus faible pour le calcul de la hauteur d'eau pr&eacute;cipit&eacute;e durant la totalit&eacute; de la pluie.</p><p>L'utilisateur a la possibilit&eacute; de modifier &agrave; souhait les diff&eacute;rentes variables de la pluie de projet ; il peut ainsi d&eacute;finir des hauteurs diff&eacute;rentes de celles calcul&eacute;es par l'application de la loi de Montana. En ex&eacute;cutant un double clic dans les champs de saisies des hauteurs, la valeur est recalcul&eacute;e par la loi de Montana.</p><p><span class="strong"><strong>Pour les bassins versants de type urbain</strong></span>, le mod&egrave;le de perte est un mod&egrave;le de pertes proportionnelles au coefficient d'imperm&eacute;abilisation (seule la lame d'eau pr&eacute;cipit&eacute;e sur les surfaces imperm&eacute;ables participe au ruissellement).</p><div class="figure"><a name="refIllustration12"></a><div class="figure-contents"><div class="mediaobject"><img src="images/img010.png" alt="Pluie nette pour les bassins urbains"></div></div><p class="title"><b>Figure&nbsp;2.13.&nbsp;Pluie nette pour les bassins urbains</b></p></div><br class="figure-break"><p>
+     
+    </p><p>La transformation pluie-d&eacute;bit est effectu&eacute;e par application du mod&egrave;le du r&eacute;servoir lin&eacute;aire simple.</p><p><a name="BVNonUrbain"></a><span class="strong"><strong>Pour les bassins versants de type non urbain</strong></span>, le mod&egrave;le de pertes tient compte :</p><div class="itemizedlist"><ul><li><p>de pertes initiales li&eacute;es au ph&eacute;nom&egrave;ne de r&eacute;tention de surface, d'&eacute;vaporation, d'interception par la v&eacute;g&eacute;tation,</p></li><li><p>de pertes continues li&eacute;es au ph&eacute;nom&egrave;ne d'infiltration et reconstitu&eacute;es par le mod&egrave;le de Horton.</p></li></ul></div><div class="figure"><a name="refIllustration13"></a><div class="figure-contents"><div class="mediaobject"><img src="images/img011.png" alt="Pluie nette pour les bassins ruraux"></div></div><p class="title"><b>Figure&nbsp;2.14.&nbsp;Pluie nette pour les bassins ruraux</b></p></div><br class="figure-break"><p>
+     
+    </p><p>La transformation pluie-d&eacute;bit est effectu&eacute;e par application d'un mod&egrave;le &agrave; deux r&eacute;servoirs lin&eacute;aires encha&icirc;n&eacute;s en s&eacute;rie.</p></div><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h5 class="title"><a name="BVEstimationPertesInitiales"></a>Estimation des pertes initiales</h5></div></div></div><p>Elles sont constitu&eacute;es par l'interception de la pluie par la v&eacute;g&eacute;tation et par le stockage de l'eau dans les d&eacute;pressions de la surface r&eacute;ceptrice. Il semble que l'interception ne puisse influencer de fa&ccedil;on tangible les pertes initiales que si la couverture v&eacute;g&eacute;tale est importante.</p><p>La quantit&eacute; retenue d&eacute;pend de la position de la surface r&eacute;ceptrice, de sa forme et donc de l'esp&egrave;ce (et de la saison), de l'intensit&eacute; de la pluie, et de l'impact des gouttes d'eau.</p><p>Quantitativement, on peut estimer que les pertes par interception sont de l'ordre de 10 &agrave; 20% de la pluie durant la saison de croissance des plantes. La capacit&eacute; de stockage quant &agrave; elle, varierait de 0,5 &agrave; 1,5 mm pour les arbres et de 0,25 &agrave; 1 mm pour une v&eacute;g&eacute;tation herbac&eacute;e &agrave; maturit&eacute;.</p><p>L'eau de ruissellement se pi&egrave;ge dans les d&eacute;pressions superficielles au d&eacute;but de l'averse. La quantit&eacute; d'eau qui peut &ecirc;tre pi&eacute;g&eacute;e peut &ecirc;tre localement importante. La nature du sol et de son couvert v&eacute;g&eacute;tal, son utilisation, et sa pente sont les principaux facteurs qui influencent ce ph&eacute;nom&egrave;ne. Les d&eacute;pressions sont remplies au d&eacute;but de l'averse et comme l'interception, retardent le ruissellement. Quantitativement, les valeurs du stockage retenues dans la litt&eacute;rature varient de :</p><div class="itemizedlist"><ul><li><p>5 mm pour les terrains sablonneux,</p></li><li><p>3,5 mm pour les terrains glaiseux,</p></li><li><p>2,5 mm pour les terrains argileux,</p></li></ul></div><p>&agrave; une valeur maximale de 16 mm. Une valeur moyenne pour les surfaces perm&eacute;ables semble &ecirc;tre de l'ordre de 6 &agrave; 7 mm.</p><div class="table"><a name="refTable1"></a><div class="table-contents"><table summary="Exemples de pertes initiales" border="1"><colgroup><col width="362"><col width="117"></colgroup><tbody><tr><td colspan="2" align="center">
+      <p><span class="strong"><strong><span class="emphasis"><em>Pelouse pentue</em></span></strong></span></p>
+     </td></tr><tr><td>
+      <p>interception </p>
+     </td><td>
+      <p>1.0</p>
+     </td></tr><tr><td>
+      <p>stockage </p>
+     </td><td>
+      <p>0.5</p>
+     </td></tr><tr><td>
+      <p>r&eacute;tention sol </p>
+     </td><td>
+      <p>4.0</p>
+     </td></tr><tr><td>
+      <p><span class="strong"><strong>TOTAL</strong></span></p>
+     </td><td>
+      <p><span class="strong"><strong>5.5 mm</strong></span></p>
+     </td></tr><tr><td colspan="2" align="center">
+      <p><span class="strong"><strong><span class="emphasis"><em>For&ecirc;t sur plat </em></span></strong></span></p>
+     </td></tr><tr><td>
+      <p>interception </p>
+     </td><td>
+      <p>5.0</p>
+     </td></tr><tr><td>
+      <p>stockage </p>
+     </td><td>
+      <p>1.5</p>
+     </td></tr><tr><td>
+      <p>r&eacute;tention sol </p>
+     </td><td>
+      <p>10.0</p>
+     </td></tr><tr><td>
+      <p><span class="strong"><strong>TOTAL</strong></span></p>
+     </td><td>
+      <p><span class="strong"><strong>16.5 mm</strong></span></p>
+     </td></tr></tbody></table></div><p class="title"><b>Tableau&nbsp;2.2.&nbsp;Exemples de pertes initiales</b></p></div><br class="table-break"><p>A titre de comparaison, pour les surfaces imperm&eacute;ables, les capacit&eacute;s retenues dans les d&eacute;pressions superficielles sont beaucoup plus faibles (de 1 &agrave; 3 mm), et sont g&eacute;n&eacute;ralement n&eacute;glig&eacute;es.</p></div><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h5 class="title"><a name="BVEstimationPertesContinues"></a>Estimation des pertes continues</h5></div></div></div><p>Les pertes continues &eacute;voluent tout au long de l'averse et sont constitu&eacute;es par l'infiltration et l'&eacute;vaporation. Le ph&eacute;nom&egrave;ne d'infiltration se produisant sur les surfaces perm&eacute;ables peut absorber des quantit&eacute;s tr&egrave;s importantes d'eau. Pour un &eacute;tat de saturation du sol donn&eacute;, au d&eacute;but de l'averse, l'eau s'infiltre rapidement remplissant les vides capillaires du sol au voisinage de la surface. Au fur et &agrave; mesure que les cavit&eacute;s capillaires du sol en surface sont remplies, la capacit&eacute; d'infiltration du sol, li&eacute;e &agrave; la demande en eau, diminue et la vitesse d'infiltration d&eacute;cro&icirc;t jusqu'&agrave; ce que la zone d'a&eacute;ration du sol soit satur&eacute;e. La vitesse d'infiltration atteint au bout d'un certain temps une vitesse constante minimale et il s'&eacute;tablit un r&eacute;gime permanent.</p><p>Les facteurs qui influencent l'infiltration sont nombreux et leurs actions sont souvent intimement li&eacute;es. Quatre &eacute;l&eacute;ments principaux gouvernent ce processus :</p><div class="itemizedlist"><ul><li><p>le sol qui intervient par sa structure granulom&eacute;trique, sa composition, son mode d'utilisation,</p></li><li><p>l'eau intervient par sa teneur initiale dans le sol au d&eacute;but de l'averse, sa hauteur au-dessus du sol,</p></li><li><p>le couvert v&eacute;g&eacute;tal intervient au niveau des racines (cheminement pr&eacute;f&eacute;rentiel), par le retard &agrave; l'&eacute;coulement qu'il cr&eacute;e, par la protection qu'il assure au sol contre l'impact des gouttes de pluies,</p></li><li><p>la saison qui intervient par la fr&eacute;quence des pluies qui gouvernent l'humidit&eacute; initiale du sol et par la temp&eacute;rature qui r&eacute;git l'&eacute;vaporation et l'&eacute;vapotranspiration.</p></li></ul></div><p>Les pertes par infiltration sont fr&eacute;quemment repr&eacute;sent&eacute;es par la loi de Horton, qui a donn&eacute; une expression de la capacit&eacute; d'infiltration (ou infiltration potentielle) en fonction du temps de la forme :</p><p><span class="inlinemediaobject"><img src="images/PerteContinu1.png"></span>
+    </p><div class="informaltable"><table border="1"><colgroup><col width="120"><col width="362"></colgroup><tbody><tr><td>
+      <p>f<sub>c</sub></p>
+     </td><td>
+      <p>vitesse limite d'infiltration en mm/h</p>
+     </td></tr><tr><td>
+      <p>f<sub>0</sub></p>
+     </td><td>
+      <p>vitesse initiale d'infiltration au temps 0 en mm/h</p>
+     </td></tr><tr><td>
+      <p>k</p>
+     </td><td>
+      <p>coefficient d&eacute;pendant du complexe solv&eacute;g&eacute;tation</p>
+     </td></tr></tbody></table></div><p>On peut aussi exprimer cette formule sous la forme :</p><p><span class="inlinemediaobject"><img src="images/PerteContinu2.png"></span>
+    </p><p>avec :</p><p><span class="inlinemediaobject"><img src="images/a.png"></span>
+    </p><p>Le choix des param&egrave;tres constitue une difficult&eacute; majeure, ils sont d&eacute;pendant de nombreux autres facteurs eux-m&ecirc;mes variables (teneur en eau du sol, couverture v&eacute;g&eacute;tale,&hellip;).</p><p>Par ailleurs, il convient de noter que cette mod&eacute;lisation de l'infiltration devient totalement al&eacute;atoire lors de situations particuli&egrave;res (formation d'une cro&ucirc;te de battance, violent orage sur sol tr&egrave;s sec, nappe sub-affleurante).</p></div><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h5 class="title"><a name="N106F0"></a>Choix de f<sub>c</sub></h5></div></div></div><p>f<sub>c</sub> caract&eacute;rise la perm&eacute;abilit&eacute; du sol qui compose le bassin versant. On a par exemple relev&eacute; pour des terrains nus :</p><div class="itemizedlist"><ul><li><p>Terre sableuse : f<sub>c</sub> = 15 &agrave; 25 mm/h,</p></li><li><p>Terre lourde : f<sub>c</sub> = 3 &agrave; 5 mm/h,</p></li><li><p>Terre argileuse : f<sub>c</sub> = 1 &agrave; 3 mm/h.</p></li></ul></div></div><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h5 class="title"><a name="N1070D"></a>Choix de f<sub>0</sub> (de a)</h5></div></div></div><p>Si f<sub>c</sub> est une caract&eacute;ristique du bassin, f<sub>0</sub> est variable et d&eacute;pend de l'&eacute;tat de saturation du sol au d&eacute;but de l'averse, et donc des conditions pluviom&eacute;triques ant&eacute;rieures. Elle sera moindre si le sol est d&eacute;j&agrave; humide. </p><p>On a observ&eacute; des valeurs de f<sub>0</sub> comprises entre 20 et 100 mm/h pour des sols secs. L'estimation de f<sub>0</sub> doit tenir compte du fait que :</p><p>Si la vitesse d'infiltration f<sub>c</sub> <span class="strong"><strong>augmente :</strong></span></p><div class="itemizedlist"><ul><li><p>si la r&eacute;tention de surface <span class="strong"><strong>augmente </strong></span>alors f<sub>0</sub> <span class="strong"><strong>augmente,</strong></span></p></li><li><p>le taux de saturation <span class="strong"><strong>augmente.</strong></span></p></li></ul></div></div><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h5 class="title"><a name="N1073F"></a>Choix de k (de b)</h5></div></div></div><p>k repr&eacute;sente la rapidit&eacute; d'&eacute;volution de la courbe d'infiltration entre les valeurs f<sub>0</sub> et f<sub>c</sub>. Ce coefficient est d'autant plus grand que la surface du sol est plus favorable &agrave; l'infiltration (r&eacute;tention de surface importante, terrain meuble, &hellip;).</p><p>Un &eacute;l&eacute;ment d'appr&eacute;ciation important est la dur&eacute;e T<sub>s</sub> au bout de laquelle un sol atteint la saturation dans des conditions moyenne d'humidit&eacute; initiale, sous de fortes averses continues. Cette dur&eacute;e est de 12 &agrave; 24 heures dans les r&eacute;gions &agrave; forte pluviom&eacute;trie comme le sud de la France. Elle peut atteindre 2 &agrave; 3 jours dans d'autres r&eacute;gions et pour certains sols tr&egrave;s perm&eacute;ables.</p></div><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h5 class="title"><a name="BVModeleRuissellement"></a>Mod&egrave;le de ruissellement &laquo; r&eacute;servoir lin&eacute;aire &raquo;</h5></div></div></div><p>Le mod&egrave;le de ruissellement est un mod&egrave;le de stockage &eacute;l&eacute;mentaire appel&eacute; &laquo;&nbsp;<span class="quote">mod&egrave;le du r&eacute;servoir lin&eacute;aire</span>&nbsp;&raquo; applicable &agrave; un bassin versant &eacute;quip&eacute; d'un syst&egrave;me de drainage artificiel (caniveaux, canaux, &eacute;gouts, ...).</p><p>Ce mod&egrave;le conceptuel est repr&eacute;sent&eacute; par le sch&eacute;ma simple ci-apr&egrave;s :</p><p><span class="inlinemediaobject"><img src="images/img012.png"></span>
+    </p><p>Le fonctionnement du syst&egrave;me transformateur est repr&eacute;sent&eacute; par deux lois reliant deux variables de flux (I(t) intensit&eacute; de la pluie nette, et Q(t) d&eacute;bit &agrave; l'exutoire) et une variable d'&eacute;tat caract&eacute;ristique du syst&egrave;me S(t) correspondant au volume stock&eacute; au temps t. La relation entre ces trois variables est lin&eacute;aire.</p><div class="informaltable"><table border="1"><colgroup><col width="226"><col width="340"></colgroup><tbody><tr><td align="left" valign="middle">
+      <p>Une &eacute;quation de stockage</p>
+     </td><td align="left" valign="middle">
+      <p><span class="inlinemediaobject"><img src="images/EqStockage.png"></span>
+       </p>
+     </td></tr><tr><td align="left" valign="middle">
+      <p>Une &eacute;quation de conservation</p>
+     </td><td align="left" valign="middle">
+      <p><span class="inlinemediaobject"><img src="images/EqTransformation.png"></span>
+       </p>
+     </td></tr></tbody></table></div><div class="informaltable"><table border="1"><colgroup><col width="102"><col width="411"></colgroup><tbody><tr><td>
+      <p>S(t)</p>
+     </td><td align="left">
+      <p>volume stock&eacute; &agrave; l'instant t sur le bassin et dans le r&eacute;seau en mm</p>
+     </td></tr><tr><td>
+      <p>Q(t)</p>
+     </td><td align="left">
+      <p>d&eacute;bit &agrave; l'exutoire du bassin &agrave; l'instant t en mm</p>
+     </td></tr><tr><td>
+      <p>I(t)</p>
+     </td><td align="left">
+      <p>intensit&eacute; de la pluie nette tombant &agrave; l'instant t sur le bassin en mm</p>
+     </td></tr><tr><td>
+      <p>K</p>
+     </td><td align="left">
+      <p>param&egrave;tre caract&eacute;ristique du bassin versant en mn(cf. suite)</p>
+     </td></tr></tbody></table></div><p>L'&eacute;quation de conservation traduit, &agrave; chaque instant, la variation du stockage qui est &eacute;gale &agrave; la diff&eacute;rence entre flux entrant et sortant.</p><p>Le param&egrave;tre K de l'&eacute;quation de stockage est homog&egrave;ne &agrave; un temps. Il traduit le d&eacute;calage dans le temps des centres de gravit&eacute; de la pluie (hy&eacute;togramme) et du d&eacute;bit (hydrogramme), c'est en quelque sorte le temps de r&eacute;ponse.</p><div class="figure"><a name="refIllustration14"></a><div class="figure-contents"><div class="mediaobject"><img src="images/img013.png" alt="Mod&egrave;le de ruissellement &laquo; r&eacute;servoir lin&eacute;aire &raquo;"></div></div><p class="title"><b>Figure&nbsp;2.15.&nbsp;Mod&egrave;le de ruissellement &laquo; r&eacute;servoir lin&eacute;aire &raquo;</b></p></div><br class="figure-break"><p>
+     
+    </p><p>Sur les bassins urbanis&eacute;s, les diff&eacute;rentes recherches ont permis d'&eacute;tablir une formulation du param&egrave;tre K en fonction d'une part des caract&eacute;ristiques du bassin versant et d'autre part de la pluie abattue.</p><p>L'analyse multivariable conduite sur des bassins versants exp&eacute;rimentaux fran&ccedil;ais et am&eacute;ricains a permis de donner &agrave; K l'expression suivante :</p><p><span class="inlinemediaobject"><img src="images/K1.png"></span>
+    </p><div class="informaltable"><table border="1"><colgroup><col width="102"><col width="411"></colgroup><tbody><tr><td>
+      <p>K</p>
+     </td><td>
+      <p>param&egrave;tre (en mn)</p>
+     </td></tr><tr><td>
+      <p>A</p>
+     </td><td>
+      <p>surface (en ha)</p>
+     </td></tr><tr><td>
+      <p>I</p>
+     </td><td>
+      <p>pente hydraulique (en %)</p>
+     </td></tr><tr><td>
+      <p>IMP</p>
+     </td><td>
+      <p>imperm&eacute;abilisation (en %)</p>
+     </td></tr><tr><td>
+      <p>TP</p>
+     </td><td>
+      <p>dur&eacute;e de la p&eacute;riode intense de la pluie nette (en mn)</p>
+     </td></tr><tr><td>
+      <p>L</p>
+     </td><td>
+      <p>longueur hydraulique (en m)</p>
+     </td></tr><tr><td>
+      <p>HP</p>
+     </td><td>
+      <p>hauteur tomb&eacute;e durant TP (en mm)</p>
+     </td></tr></tbody></table></div><p>Le domaine de validit&eacute; de cette relation est </p><div class="informaltable"><table border="1"><colgroup><col width="132"><col width="185"><col width="211"></colgroup><tbody><tr><td align="left">
+      <p><span class="strong"><strong>Param&egrave;tres</strong></span></p>
+     </td><td align="left">
+      <p><span class="strong"><strong>Borne inf&eacute;rieure</strong></span></p>
+     </td><td align="left">
+      <p><span class="strong"><strong>Borne sup&eacute;rieure</strong></span></p>
+     </td></tr><tr><td align="left">
+      <p>A</p>
+     </td><td align="left">
+      <p>0.4</p>
+     </td><td align="left">
+      <p>5 000 ha</p>
+     </td></tr><tr><td align="left">
+      <p>IMP</p>
+     </td><td align="left">
+      <p>20 %</p>
+     </td><td align="left">
+      <p>100 %</p>
+     </td></tr><tr><td align="left">
+      <p>L</p>
+     </td><td align="left">
+      <p>110 m</p>
+     </td><td align="left">
+      <p>17 800 m</p>
+     </td></tr><tr><td align="left">
+      <p>I</p>
+     </td><td align="left">
+      <p>0.4 %</p>
+     </td><td align="left">
+      <p>4.7 %</p>
+     </td></tr><tr><td align="left">
+      <p>TP</p>
+     </td><td align="left">
+      <p>5 mn</p>
+     </td><td align="left">
+      <p>180 mn</p>
+     </td></tr><tr><td align="left">
+      <p>HP</p>
+     </td><td align="left">
+      <p>5 mm</p>
+     </td><td align="left">
+      <p>240 mm</p>
+     </td></tr></tbody></table></div><p>Les essais de calage du mod&egrave;le sur la valeur du d&eacute;bit de pointe ont montr&eacute; que pour reproduire cette valeur avec une meilleure pr&eacute;cision, il convenait de r&eacute;duire la valeur de K &agrave; :</p><div class="informaltable"><table border="1"><colgroup><col width="207"><col width="359"></colgroup><tbody><tr><td align="left" valign="middle">
+      <p>Bassins de surface &lt; 6 ha</p>
+     </td><td align="left" valign="middle">
+      <p><span class="inlinemediaobject"><img src="images/Objet162.png"></span>
+       </p>
+     </td></tr><tr><td align="left" valign="middle">
+      <p>Bassins de surface &lt; 250 ha</p>
+     </td><td align="left" valign="middle">
+      <p><span class="inlinemediaobject"><img src="images/Objet163.png"></span>
+       </p>
+     </td></tr></tbody></table></div><p>Dans &laquo;&nbsp;<span class="quote">La ville et son assainissement</span>&nbsp;&raquo; figurent &eacute;galement les formulations suivantes :</p><p><span class="inlinemediaobject"><img src="images/K2.png"></span>
+    </p><p><span class="inlinemediaobject"><img src="images/K3.png"></span>
+    </p><p>Pour les bassins periurbains, il peut &ecirc;tre retenu :</p><p><span class="inlinemediaobject"><img src="images/K4.png"></span>
+    </p><p>Pour les bassins non urbains, aucune &eacute;tude n'a permis de lier ce param&egrave;tre aux caract&eacute;ristiques du bassin. La seule m&eacute;thode cr&eacute;dible reste donc le calage.</p></div></div><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h4 class="title"><a name="BVDebitTempsSec"></a>Le d&eacute;bit de temps sec Q<sub>TS</sub></h4></div></div></div><p>Les &eacute;coulements de temps sec se composent des &eacute;coulements d'eaux us&eacute;es (domestiques, artisanales et industrielles) et des &eacute;coulements d'eaux claires parasites.</p><p>Les d&eacute;bits d'eaux us&eacute;es sont estim&eacute;s en g&eacute;n&eacute;ral d'apr&egrave;s les consommations moyennes par habitant pour les eaux d'origines domestiques ou par activit&eacute; pour les effluents industriels.</p><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h5 class="title"><a name="BVDebitEauxUseesDomestiques"></a>D&eacute;bit des eaux us&eacute;es domestiques</h5></div></div></div><p>Les volumes rejet&eacute;s sont d&eacute;termin&eacute;s &agrave; partir du rejet d'eau par habitant et par jour correspondant aux plus fortes consommations journali&egrave;res de l'ann&eacute;e (entre 100 et 200 l/hab./jour).</p><p><span class="inlinemediaobject"><img src="images/QM.png"></span>
+    </p><div class="informaltable"><table border="1"><colgroup><col width="102"><col width="411"></colgroup><tbody><tr><td>
+      <p>Q<sub>m</sub></p>
+     </td><td>
+      <p>d&eacute;bit journalier en l/s</p>
+     </td></tr><tr><td>
+      <p>C<sub>eau</sub></p>
+     </td><td>
+      <p>rejet journalier par habitant en litre/jour/habitant</p>
+     </td></tr><tr><td>
+      <p>N<sub>hab</sub></p>
+     </td><td>
+      <p>nombre d'&eacute;quivalents-habitant</p>
+     </td></tr></tbody></table></div><p>Les d&eacute;bits de pointe seront calcul&eacute;s &agrave; partir du d&eacute;bit moyen par application d'un coefficient de pointe p estim&eacute; par cette formule :</p><p><span class="inlinemediaobject"><img src="images/p.png"></span>
+    </p><div class="informaltable"><table border="1"><colgroup><col width="102"><col width="411"></colgroup><tbody><tr><td>
+      <p>p</p>
+     </td><td>
+      <p>coefficient de pointe</p>
+     </td></tr><tr><td>
+      <p>a</p>
+     </td><td>
+      <p>param&egrave;tre qui exprime la limite inf&eacute;rieure (par d&eacute;faut 1,5)</p>
+     </td></tr><tr><td>
+      <p>b</p>
+     </td><td>
+      <p>param&egrave;tre qui exprime la valeur de croissance (par d&eacute;faut 2,5)</p>
+     </td></tr><tr><td>
+      <p>Q<sub>m</sub></p>
+     </td><td>
+      <p>d&eacute;bit moyen journalier des eaux us&eacute;es en l/s</p>
+     </td></tr></tbody></table></div><p>Si des zones comportent des &eacute;tablissements ayant des activit&eacute;s particuli&egrave;res (h&ocirc;pital, cantine, &eacute;cole, caserne, ...), le projeteur pourra se r&eacute;f&eacute;rer au tableau fourni ci-apr&egrave;s, o&ugrave; figurent des valeurs moyennes de consommation journali&egrave;re et de facteurs de pointe d'&eacute;tablissements courants.</p><div class="figure"><a name="refIllustration15"></a><div class="figure-contents"><div class="mediaobject"><img src="images/img014.png" alt="Consommation journali&egrave;re moyenne d'eau"></div></div><p class="title"><b>Figure&nbsp;2.16.&nbsp;Consommation journali&egrave;re moyenne d'eau</b></p></div><br class="figure-break"><p>
+     
+    </p><p>On peut ainsi obtenir le d&eacute;bit des eaux domestiques de pointe Q<sub>edp</sub> avec la formule suivante :</p><p><span class="inlinemediaobject"><img src="images/Qedp.png"></span>
+    </p></div><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h5 class="title"><a name="N10A77"></a>D&eacute;bit des eaux us&eacute;es industrielles</h5></div></div></div><p>Les d&eacute;bits des eaux us&eacute;es industrielles peuvent cependant &ecirc;tre estim&eacute;s par une &eacute;quivalence en nombre d'habitants et ainsi calcul&eacute;s selon les principes d&eacute;crits pr&eacute;c&eacute;demment pour finalement obtenir le d&eacute;bit de pointe des eaux industrielles Q<sub>eip</sub>.</p></div><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h5 class="title"><a name="BVDebitEauxClairesParasites"></a>D&eacute;bit des eaux claires parasites</h5></div></div></div><p>La quantification des eaux claires parasites est int&eacute;gr&eacute;e par la d&eacute;finition, sur le bassin versant, d'un taux de dilution des eaux us&eacute;es. </p><p>Ce taux repr&eacute;sente, en pourcentage par rapport au d&eacute;bit moyen journalier des eaux us&eacute;es, la quantit&eacute; d'eaux claires parasites drain&eacute;es sur le bassin versant.</p><p>L'estimation du d&eacute;bit moyen des eaux parasites &agrave; l'exutoire du bassin &eacute;l&eacute;mentaire r&eacute;sulte donc simplement du produit du d&eacute;bit moyen des eaux us&eacute;es par le taux de dilution.</p><p><span class="inlinemediaobject"><img src="images/Qedp2.png"></span>
+    </p><div class="informaltable"><table border="1"><colgroup><col width="102"><col width="411"></colgroup><tbody><tr><td>
+      <p>Q<sub>edp</sub></p>
+     </td><td>
+      <p>D&eacute;bit des eaux claires parasites en l/s</p>
+     </td></tr><tr><td>
+      <p>Q<sub>m</sub></p>
+     </td><td>
+      <p>D&eacute;bit moyen des eaux us&eacute;es en l/s</p>
+     </td></tr><tr><td>
+      <p>T<sub>dilu</sub></p>
+     </td><td>
+      <p>Taux de dilution en %</p>
+     </td></tr></tbody></table></div></div><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h5 class="title"><a name="N10AD0"></a>D&eacute;bit de temps sec</h5></div></div></div><p>Il est calcul&eacute; par la somme des d&eacute;bits de pointe des eaux us&eacute;es (domestiques et &eacute;ventuellement industrielles) et du d&eacute;bit des eaux claires parasites.</p><p><span class="inlinemediaobject"><img src="images/Qts.png"></span>
+    </p></div></div><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h4 class="title"><a name="BVDebitReference"></a>Le d&eacute;bit de r&eacute;f&eacute;rence Q<sub>REF</sub></h4></div></div></div><p>Le d&eacute;bit de r&eacute;f&eacute;rence est compos&eacute; du d&eacute;bit de temps sec Q<sub>TS</sub> et d'un d&eacute;bit d'eau pluviale de r&eacute;f&eacute;rence, estim&eacute; &agrave; partir d'une intensit&eacute; moyenne de pluie caract&eacute;ris&eacute;e par le projeteur.</p><p><span class="inlinemediaobject"><img src="images/QpluieREF.png"></span>
+    </p><div class="informaltable"><table border="1"><colgroup><col width="102"><col width="411"></colgroup><tbody><tr><td>
+      <p>C<sub>r</sub></p>
+     </td><td>
+      <p>le coefficient de ruissellement</p>
+     </td></tr><tr><td>
+      <p>A</p>
+     </td><td>
+      <p>la surface du bassin versant (en ha)</p>
+     </td></tr><tr><td>
+      <p>T<sub>c</sub></p>
+     </td><td>
+      <p>le temps de concentration (en mn)</p>
+     </td></tr><tr><td>
+      <p>I</p>
+     </td><td>
+      <p>l'intensit&eacute; moyenne de la pluie de r&eacute;f&eacute;rence (en l/ha/s)</p>
+     </td></tr></tbody></table></div><p>Le d&eacute;bit de pluie de r&eacute;f&eacute;rence est consid&eacute;r&eacute; comme le d&eacute;bit correspondant aux pluies faibles qui devront &ecirc;tre enti&egrave;rement trait&eacute;es en station. Il r&eacute;sulte d'un compromis entre les aspects techniques, &eacute;conomiques et environnementaux.</p><p>On en d&eacute;duit alors le d&eacute;bit de r&eacute;f&eacute;rence :</p><p><span class="inlinemediaobject"><img src="images/Objet7.png"></span>
+    </p><p>Cette valeur est plus sp&eacute;cifiquement utilis&eacute;e pour le dimensionnement des syst&egrave;mes de d&eacute;versoir et de bassin d'orage &agrave; mettre en place sur les r&eacute;seaux unitaires.</p></div><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h4 class="title"><a name="BVDebitOrage"></a>Le d&eacute;bit d'orage Q<sub>ORA</sub></h4></div></div></div><p>Le d&eacute;bit d'orage est constitu&eacute; du d&eacute;bit de temps sec et du d&eacute;bit de pluie d'orage calcul&eacute; &agrave; l'aide de l'une des trois m&eacute;thodes de transformation pluie &ndash; d&eacute;bit :</p><p><span class="inlinemediaobject"><img src="images/Qora.png"></span>
+    </p></div></div></div></body></html>

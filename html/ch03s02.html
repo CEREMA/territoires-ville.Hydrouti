@@ -1,0 +1,269 @@
+<html><head><META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>Les &laquo;&nbsp;Bassins Versants&nbsp;&raquo;</title><link href="chmicons/certu.css" rel="stylesheet" type="text/css"><meta content="DocBook XSL Stylesheets V1.73.2" name="generator"><meta name="keywords" content="hydrouti, hydrologie, hydraulique, bassins versants, chute, syphon, d&eacute;versoir d'orage, station de pompage"><link rel="start" href="index.html" title="Hydrouti 1.1"><link rel="up" href="ch03.html" title="Chapitre&nbsp;3.&nbsp;Exemples d'utilisation"><link rel="prev" href="ch03s01.html" title="Introduction"><link rel="next" href="ch03s03.html" title="Les &laquo;&nbsp;Chutes&nbsp;&raquo;"></head><body><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h2 class="title"><a name="BassinVersantExemple"></a>Les &laquo;&nbsp;<span class="quote">Bassins Versants</span>&nbsp;&raquo;</h2></div></div></div><div class="toc"><dl><dt><span class="section"><a href="ch03s02.html#Chap321">Bassin versant urbain : Q<sub>ts</sub>, Q<sub>r&eacute;f</sub> et Q<sub>ora</sub></a></span></dt><dt><span class="section"><a href="ch03s02.html#N12659">Bassin versant rural : Q<sub>ts</sub></a></span></dt></dl></div><pre class="programlisting">Manuel utilisateur : <a class="link" href="ch02s02.html" title="Les &laquo;&nbsp;Bassins Versants&nbsp;&raquo;">Les Bassins Versants</a></pre><p>Ce module permet de calculer les d&eacute;bits caract&eacute;ristiques d'un bassin versant rural ou urbain. Pour un bassin urbain, on calcule :</p><div class="itemizedlist"><ul><li><p>le d&eacute;bit d'orage,</p></li><li><p>le d&eacute;bit de r&eacute;f&eacute;rence,</p></li><li><p>et le d&eacute;bit de temps sec.</p></li></ul></div><p>Et pour un <span class="strong"><strong>bassin versant rural</strong></span>, on d&eacute;termine simplement le d&eacute;bit d'orage.</p><p>Dans les deux paragraphes principaux qui suivent, nous prenons l'exemple d'un bassin urbain puis d'un bassin rural dont les caract&eacute;ristiques principales sont communes :</p><div class="mediaobject"><img src="images/img058.png"></div><p>
+    </p><p>Pour les donn&eacute;es pluviom&eacute;triques et la caract&eacute;risation de la loi de Montana, le projeteur doit d&eacute;finir une s&eacute;rie de param&egrave;tres pour les averses de dur&eacute;e inf&eacute;rieure &agrave; un seuil et une s&eacute;rie de param&egrave;tres pour les averses de dur&eacute;e sup&eacute;rieure au seuil.</p><div class="mediaobject"><img src="images/img059.png"></div><p>
+    </p><p>Suivant les informations calcul&eacute;es (temps de concentration du BV) ou les informations saisies (dur&eacute;e des pluies), le jeu de param&egrave;tres adapt&eacute; sera automatiquement appliqu&eacute;.</p><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h3 class="title"><a name="Chap321"></a>Bassin versant urbain : Q<sub>ts</sub>, Q<sub>r&eacute;f</sub> et Q<sub>ora</sub></h3></div></div></div><p>L'exemple de calcul pour un bassin versant urbain qui suit correspond &agrave; l'exemple &laquo; D&eacute;mo BV urbain &raquo;. Pour l'ouvrir, il faut cliquer sur ouvrir dans le menu &laquo; Bassin versant &raquo;, </p><div class="mediaobject"><img src="images/img060.png"></div><p>
+    </p><p>ensuite s&eacute;lectionner &laquo; D&eacute;mo BV urbain &raquo; dans la fen&ecirc;tre qui vient d'appara&icirc;tre, </p><div class="mediaobject"><img src="images/img061.png"></div><p>
+    </p><p>et bien s&ucirc;r cliquer sur le bouton &laquo; OK &raquo; pour valider votre choix.</p><p>Dans le cas d'un bassin urbain, les apports d'eau pour le d&eacute;bit &agrave; l'exutoire ont deux origines :</p><div class="itemizedlist"><ul><li><p>l'eau pluviale,</p></li><li><p>les eaux us&eacute;es (et les eaux claires parasites).</p></li></ul></div><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h4 class="title"><a name="Chap3211"></a>Le d&eacute;bit de temps sec Q<sub>ts</sub></h4></div></div></div><p>Le d&eacute;bit de temps sec est compos&eacute; du d&eacute;bit des eaux us&eacute;es plus le d&eacute;bit des eaux claires parasites.</p><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h5 class="title"><a name="N11FCF"></a>Le d&eacute;bit des eaux us&eacute;es Q<sub>edp</sub></h5></div></div></div><p>Avant de calculer le d&eacute;bit de pointe des eaux us&eacute;es, il faut d'abord calculer le d&eacute;bit moyen des eaux us&eacute;es Q<sub>m</sub>.</p><p><span class="inlinemediaobject"><img src="images/Objet52.png"></span>
+    </p><div class="informaltable"><table border="1"><colgroup><col width="102"><col width="411"></colgroup><tbody><tr><td>
+      <p>Q<sub>m</sub></p>
+     </td><td>
+      <p>d&eacute;bit journalier en l/s</p>
+     </td></tr><tr><td>
+      <p>C<sub>eau</sub></p>
+     </td><td>
+      <p>rejet journalier par habitant en litre/jour/habitant</p>
+     </td></tr><tr><td>
+      <p>N<sub>hab</sub></p>
+     </td><td>
+      <p>nombre d'&eacute;quivalents-habitant</p>
+     </td></tr></tbody></table></div><p>Pour l'exemple &eacute;tudi&eacute; ici, nous choisissons :</p><p><span class="inlinemediaobject"><img src="images/img062.png"></span>
+    </p><p>Et nous obtenons : Q<sub>m</sub> &asymp; 2.1 l/s.</p><div class="caution"><table border="0" summary="Caution"><tr><td valign="top" align="center" rowspan="2" width="25"><img alt="[Attention]" src="chmicons/caution.png"></td><th align="left">Attention</th></tr><tr><td valign="top" align="left"><p>Cette valeur n'appara&icirc;t pas dans Hydrouti, ou du moins n'appara&icirc;t pas directement. En effet, en choisissant un taux de dilution de 100% comme dans cet exemple, on a la relation Q<sub>m</sub> = Q<sub>ecp</sub> (Voir paragraphe <a class="link" href="ch03s02.html#Chap32112" title="Le d&eacute;bit des eaux claires parasites Qecp">3.2.1.1.2</a> - <a class="link" href="ch03s02.html#Chap32112" title="Le d&eacute;bit des eaux claires parasites Qecp">Le d&eacute;bit des eaux claires parasites Qecp</a> ). Il est alors possible de voir quelle valeur prend Qm, puisque le d&eacute;bit des eaux claires parasites Q<sub>ecp</sub> est affich&eacute; dans Hydrouti.</p></td></tr></table></div><p>Pour obtenir le d&eacute;bit de pointe des eaux us&eacute;es, il suffit de multiplier le d&eacute;bit moyen Q<sub>m</sub> par un coefficient de pointe p calcul&eacute; de la fa&ccedil;on suivante :</p><p><span class="inlinemediaobject"><img src="images/Objet53.png"></span>
+    </p><p>Attention, p doit &ecirc;tre limit&eacute; &agrave; 4 : <span class="strong"><strong>p </strong></span><span class="strong"><strong>&le;</strong></span><span class="strong"><strong> 4</strong></span> </p><div class="informaltable"><table border="1"><colgroup><col width="102"><col width="411"></colgroup><tbody><tr><td>
+      <p>p</p>
+     </td><td>
+      <p>coefficient de pointe</p>
+     </td></tr><tr><td>
+      <p>a</p>
+     </td><td>
+      <p>param&egrave;tre qui exprime la limite inf&eacute;rieure (par d&eacute;faut 1,5)</p>
+     </td></tr><tr><td>
+      <p>b</p>
+     </td><td>
+      <p>param&egrave;tre qui exprime la valeur de croissance (par d&eacute;-faut 2,5)</p>
+     </td></tr><tr><td>
+      <p>Q<sub>m</sub></p>
+     </td><td>
+      <p>d&eacute;bit moyen journalier des eaux us&eacute;es en l/s</p>
+     </td></tr></tbody></table></div><p>Pour cet exemple, nous conservons les valeurs par d&eacute;faut, </p><p><span class="inlinemediaobject"><img src="images/img063.png"></span>
+    </p><p>et nous obtenons ainsi : <span class="strong"><strong>p </strong></span><span class="strong"><strong>&asymp;</strong></span><span class="strong"><strong> 3.2</strong></span> .</p><p>On en d&eacute;duit alors <span class="strong"><strong>Q</strong></span><span class="strong"><strong>edp </strong></span><span class="strong"><strong>&asymp;</strong></span><span class="strong"><strong> 6.9 l/s</strong></span> :</p><p><span class="inlinemediaobject"><img src="images/img064.png"></span>
+    </p></div><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h5 class="title"><a name="Chap32112"></a>Le d&eacute;bit des eaux claires parasites Q<sub>ecp</sub></h5></div></div></div><p>Le d&eacute;bit des eaux claires parasites Q<sub>ecp</sub> s'obtient &agrave; partir du d&eacute;bit moyen des eaux us&eacute;es Q<sub>m</sub>, et du taux de dilution, qui est fix&eacute; par l'utilisateur (ici, nous avons choisi 100%).</p><p><span class="inlinemediaobject"><img src="images/Objet54.png"></span>
+    </p><div class="informaltable"><table border="1"><colgroup><col width="102"><col width="411"></colgroup><tbody><tr><td>
+      <p>Q<sub>ecp</sub></p>
+     </td><td>
+      <p>d&eacute;bit des eaux claires parasites en l/s</p>
+     </td></tr><tr><td>
+      <p>Q<sub>m</sub></p>
+     </td><td>
+      <p>d&eacute;bit moyen des eaux us&eacute;es en l/s</p>
+     </td></tr><tr><td>
+      <p>T<sub>dilu</sub></p>
+     </td><td>
+      <p>taux de dilution en %</p>
+     </td></tr></tbody></table></div><p><span class="inlinemediaobject"><img src="images/img065.png"></span>
+    </p></div><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h5 class="title"><a name="N12131"></a>Conclusion : Q<sub>ts</sub></h5></div></div></div><p>Finalement, on peut maintenant calculer le d&eacute;bit de temps sec Q<sub>ts</sub>, en faisant la somme du d&eacute;bit des eaux claires parasites et du d&eacute;bit des eaux us&eacute;es Q<sub>edp</sub> :</p><p><span class="inlinemediaobject"><img src="images/Objet55.png"></span>
+    </p><p>Dans notre exemple, nous obtenons <span class="strong"><strong>Qts </strong></span><span class="strong"><strong>&asymp;</strong></span><span class="strong"><strong> 9.0 l/s</strong></span>.</p><p><span class="inlinemediaobject"><img src="images/img066.png"></span>
+    </p></div></div><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h4 class="title"><a name="N1215A"></a>Le d&eacute;bit de r&eacute;f&eacute;rence Q<sub>r&eacute;f</sub></h4></div></div></div><p>Le d&eacute;bit de r&eacute;f&eacute;rence est compos&eacute; du d&eacute;bit de temps sec calcul&eacute; dans le paragraphe pr&eacute;c&eacute;dent, et du d&eacute;bit de pluie de r&eacute;f&eacute;rence, dont l'expression est donn&eacute;e ci-dessous :</p><p><span class="inlinemediaobject"><img src="images/Objet56.png"></span>
+    </p><div class="informaltable"><table border="1"><colgroup><col width="102"><col width="411"></colgroup><tbody><tr><td>
+      <p>C<sub>r</sub></p>
+     </td><td>
+      <p>le coefficient de ruissellement</p>
+     </td></tr><tr><td>
+      <p>A</p>
+     </td><td>
+      <p>la surface du bassin versant (en ha)</p>
+     </td></tr><tr><td>
+      <p>T<sub>c</sub></p>
+     </td><td>
+      <p>temps de concentration (en mn)</p>
+     </td></tr><tr><td>
+      <p>I</p>
+     </td><td>
+      <p>l'intensit&eacute; de la pluie de r&eacute;f&eacute;rence (en l/ha/s)</p>
+     </td></tr></tbody></table></div><p>Hydrouti calcule le temps de concentration par la formule de <span class="strong"><strong>Kirpich</strong></span> : </p><p><span class="inlinemediaobject"><img src="images/Objet57.png"></span>
+    </p><div class="informaltable"><table border="1"><colgroup><col width="102"><col width="411"></colgroup><tbody><tr><td>
+      <p>L</p>
+     </td><td>
+      <p>la longueur caract&eacute;ristique du bassin versant (en m)</p>
+     </td></tr><tr><td>
+      <p>p</p>
+     </td><td>
+      <p>la pente caract&eacute;ristique du bassin versant (en m/m)</p>
+     </td></tr></tbody></table></div><p>Dans notre exemple, on obtient les r&eacute;sultats suivants :</p><div class="itemizedlist"><ul><li><p>T<sub>c</sub> &asymp; 28 mn</p></li><li><p>Q<sub>pluieREF</sub> &asymp; 124 l/s</p></li></ul></div><p><span class="inlinemediaobject"><img src="images/img067.png"></span>
+    </p><p>On en d&eacute;duit finalement le d&eacute;bit de r&eacute;f&eacute;rence Q<sub>r&eacute;f</sub> = Q<sub>ts</sub> + Q<sub>pluieREF</sub> :</p><p><span class="inlinemediaobject"><img src="images/img068.png"></span>
+    </p></div><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h4 class="title"><a name="N12217"></a>Le d&eacute;bit d'orage Q<sub>ora</sub></h4></div></div></div><p>Le d&eacute;bit d'orage Q<sub>ora</sub> se compose d'une premi&egrave;re partie d'eau pluviale Q<sub>pluieORA</sub> et d'une seconde partie du d&eacute;bit de temps sec Q<sub>ts</sub>. Ce dernier a &eacute;t&eacute; calcul&eacute; dans le paragraphe &laquo;&nbsp;<span class="quote"><a class="link" href="ch03s02.html#Chap3211" title="Le d&eacute;bit de temps sec Qts">3.2.1.1</a></span>&nbsp;&raquo;&laquo;&nbsp;<span class="quote"> - </span>&nbsp;&raquo;&laquo;&nbsp;<span class="quote"><a class="link" href="ch03s02.html#Chap3211" title="Le d&eacute;bit de temps sec Qts">Le d&eacute;bit de temps sec Qts</a></span>&nbsp;&raquo;. La d&eacute;termination du d&eacute;bit de pluie d'orage se fait par trois m&eacute;thodes :</p><div class="itemizedlist"><ul><li><p>la m&eacute;thode de Caquot,</p></li><li><p>la m&eacute;thode rationnelle,</p></li><li><p>ou la m&eacute;thode de l'hydrogramme.</p></li></ul></div><p>L'utilisateur a ensuite le choix d'une des m&eacute;thodes.</p></div><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h4 class="title"><a name="N1223E"></a>Q<sub>ora</sub> par la m&eacute;thode rationnelle</h4></div></div></div><p>Cette m&eacute;thode utilise un mod&egrave;le simple de transformation de la pluie (d&eacute;crite par son intensit&eacute; i<sub>T</sub>), suppos&eacute;e uniforme et constante dans le temps, en un d&eacute;bit <span class="emphasis"><em>instantan&eacute; maximal</em></span> &agrave; l'exutoire. Celui-ci est atteint lorsque l'ensemble du bassin contribue &agrave; la formation du d&eacute;bit, donc lorsque la dur&eacute;e de l'averse est &eacute;gale au temps de concentration du bassin versant.</p><p><span class="inlinemediaobject"><img src="images/Objet58.png"></span>
+    </p><div class="informaltable"><table border="1"><colgroup><col width="102"><col width="411"></colgroup><tbody><tr><td>
+      <p>Q<sub>pluieORA</sub></p>
+     </td><td>
+      <p>d&eacute;bit de pointe (m3/s)</p>
+     </td></tr><tr><td>
+      <p>C</p>
+     </td><td>
+      <p>coefficient de ruissellement</p>
+     </td></tr><tr><td>
+      <p>i<sub>T</sub></p>
+     </td><td>
+      <p>intensit&eacute; de la pluie de p&eacute;riode de retour T (mm/mn)</p>
+     </td></tr><tr><td>
+      <p>A</p>
+     </td><td>
+      <p>surface du bassin versant (ha)</p>
+     </td></tr></tbody></table></div><p>L'intensit&eacute; de la pluie de p&eacute;riode de retour T se calcule avec les coefficients de Montana :</p><p><span class="inlinemediaobject"><img src="images/Objet59.png"></span>
+    </p><p>Ici, on obtient : <span class="strong"><strong>iT </strong></span><span class="strong"><strong>&asymp;</strong></span><span class="strong"><strong> 0.72 mm/mn</strong></span></p><p>On en d&eacute;duit le d&eacute;bit de pluie d'orage Q<sub>pluieORA</sub> par la m&eacute;thode rationnelle:</p><p><span class="inlinemediaobject"><img src="images/img069.png"></span>
+    </p><p>Finalement, en faisant la somme du d&eacute;bit de temps sec Q<sub>ts</sub> et du d&eacute;bit de pluie d'orage &laquo; par la m&eacute;thode rationnelle &raquo;, on obtient le d&eacute;bit d'orage &laquo; par la m&eacute;thode rationnelle &raquo; :</p><p><span class="inlinemediaobject"><img src="images/img070.png"></span>
+    </p></div><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h4 class="title"><a name="N122D0"></a>Q<sub>ora</sub> par la m&eacute;thode superficielle de Caquot</h4></div></div></div><p>Cette m&eacute;thode est d&eacute;riv&eacute;e de la m&eacute;thode rationnelle, elle s'applique exclusivement sur des surfaces drain&eacute;es, et de la m&ecirc;me fa&ccedil;on, on ne d&eacute;termine que le d&eacute;bit de pointe. Sa formulation est la suivante :</p><p><span class="inlinemediaobject"><img src="images/Objet60.png"></span>
+    </p><div class="informaltable"><table border="1"><colgroup><col width="120"><col width="362"></colgroup><tbody><tr><td>
+      <p>Q<sub>pluieORA</sub></p>
+     </td><td>
+      <p>d&eacute;bit de pluie d'orage par la m&eacute;thode de Caquot en m3/s</p>
+     </td></tr><tr><td>
+      <p>I</p>
+     </td><td>
+      <p>pente hydraulique en m/m</p>
+     </td></tr><tr><td>
+      <p>C</p>
+     </td><td>
+      <p>coefficient d'imperm&eacute;abilisation</p>
+     </td></tr><tr><td>
+      <p>A</p>
+     </td><td>
+      <p>surface du bassin versant (ha)</p>
+     </td></tr><tr><td>
+      <p>m</p>
+     </td><td>
+      <p>coefficient correctif de forme</p>
+     </td></tr><tr><td>
+      <p>K, &#945;, &#946;, &#947;</p>
+     </td><td>
+      <p>coefficients d&eacute;pendant de la pluviom&eacute;trie et de la p&eacute;riode de retour</p>
+     </td></tr></tbody></table></div><p>Les expressions de K, &#945;, &#946;, &#947;, qui d&eacute;pendent de la p&eacute;riode de retour et donc des coefficients de Montana, sont les suivantes :</p><p><span class="inlinemediaobject"><img src="images/Objet61.png"></span>
+    </p><p>Avec notre exemple, nous trouvons :</p><div class="itemizedlist"><ul><li><p>K &asymp; 1.50</p></li><li><p>&#945; &asymp; 0.32</p></li><li><p>&#946; &asymp; 1.23</p></li><li><p>&#947; &asymp; 0.77</p></li></ul></div><p>Une correction est effectu&eacute;e sur le d&eacute;bit par le coefficient m, qui se calcule de la mani&egrave;re suivante :</p><p><span class="inlinemediaobject"><img src="images/Objet62.png"></span>
+    </p><p>avec</p><p><span class="inlinemediaobject"><img src="images/Objet63.png"></span>
+    </p><p>Ici, nous obtenons : <span class="emphasis"><em>M </em></span><span class="emphasis"><em>&asymp;</em></span><span class="emphasis"><em> 1.63</em></span> et <span class="emphasis"><em>m </em></span><span class="emphasis"><em>&asymp;</em></span><span class="emphasis"><em> 1.14</em></span> .</p><p>Finalement, on peut en d&eacute;duire le d&eacute;bit de pluie d'orage Q<sub>pluieORA</sub> calcul&eacute; par la m&eacute;thode de Caquot,</p><p><span class="inlinemediaobject"><img src="images/img071.png"></span>
+    </p><p>ainsi que le d&eacute;bit d'orage Qora, a fortiori calcul&eacute; par la m&eacute;thode de Caquot :</p><p><span class="inlinemediaobject"><img src="images/img072.png"></span>
+    </p></div><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h4 class="title"><a name="N1239F"></a>Qora par la m&eacute;thode de l'hydrogramme</h4></div></div></div><p>Cette m&eacute;thode consiste &agrave; calculer l'hydrogramme de ruissellement &agrave; partir d'une pluie de projet synth&eacute;tique de type double-triangle. La premi&egrave;re &eacute;tape est la construction de cette pluie de projet, puis &agrave; partir de celle-ci, on d&eacute;termine la pluie nette par le mod&egrave;le de ruissellement, et finalement, par le mod&egrave;le de r&eacute;servoir lin&eacute;aire simple, on calcule l'hydrogramme. </p><p>Pour un bassin rural, la d&eacute;marche est du m&ecirc;me type. A partir de la pluie de projet, on d&eacute;termine la pluie nette par le mod&egrave;le de pertes, puis on calcule l'hydrogramme avec le mod&egrave;le de r&eacute;servoir lin&eacute;aire double.</p><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h5 class="title"><a name="Chap32161"></a>Pluie de projet</h5></div></div></div><p>Il faut d&eacute;terminer la pluie de projet : c'est une pluie synth&eacute;tique en double-triangle, dont les param&egrave;tres sont les suivants pour notre exemple (nous avons conserv&eacute; les param&egrave;tres par d&eacute;faut) :</p><p><span class="inlinemediaobject"><img src="images/img073.png"></span>
+    </p><p>Par d&eacute;faut pour initialiser le calcul :</p><div class="itemizedlist"><ul><li><p>la dur&eacute;e intense correspond au temps de concentration, calcul&eacute; par la formule de Kirpich,</p></li><li><p>a dur&eacute;e totale est le quadruple de la dur&eacute;e intense.</p></li><li><p>La hauteur intense correspond naturellement &agrave; la hauteur d'une pluie d'intensit&eacute; et de dur&eacute;e T<sub>c</sub> ; on obtient ici une hauteur d'environ 13mm :</p></li></ul></div><p><span class="inlinemediaobject"><img src="images/Objet64.png"></span>
+    </p><div class="itemizedlist"><ul><li><p>Le param&egrave;tre d&eacute;calage de la pointe doit &ecirc;tre compris entre 0 et 1 : il caract&eacute;rise l'emplacement du pic de pluie dans le hy&eacute;togramme. Dans le cas pr&eacute;sent, nous avons consid&eacute;r&eacute; une pluie centr&eacute;e : le param&egrave;tre d&eacute;calage de la pointe est donc &eacute;gal &agrave; 0.5.</p></li><li><p>le pas de calcul caract&eacute;rise le pas de discr&eacute;tisation du hy&eacute;togramme, c'est donc un param&egrave;tre de pr&eacute;cision du calcul. Dans ce cas, la valeur par d&eacute;faut, c'est &agrave; dire 5mn, a &eacute;t&eacute; conserv&eacute;e.</p></li></ul></div><p>L'utilisateur a la possibilit&eacute; de modifier, &agrave; volont&eacute;, les caract&eacute;ristiques de la pluie, en changeant les valeurs des diff&eacute;rents param&egrave;tres.</p><p>Pour les hauteurs de pluie, en effectuant un double clic dans le champ de saisie, la hauteur d'eau est automatiquement recalcul&eacute;e par application de la formule de Montana.</p><p>Modifications des dur&eacute;es totale et intense de l'affichage initial</p><div class="mediaobject"><img src="images/img074.png"></div><p>
+    </p><p>Recalcul des hauteurs correspondante par la loi de Montana en double cliquant dans le champ &laquo; Hauteur totale &raquo; et le champ &laquo; Hauteur intense &raquo;</p><div class="mediaobject"><img src="images/img075.png"></div><p>
+    </p><p>D&egrave;s qu'on valide les modifications, en cliquant sur le bouton &laquo; valider &raquo;, les hauteurs &laquo; intense &raquo; et &laquo; totale &raquo; sont mises &agrave; jour automatiquement.</p><p>La figure suivante repr&eacute;sente le hy&eacute;togramme obtenu :</p><div class="mediaobject"><img src="images/img076.png"></div><p>
+    </p></div><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h5 class="title"><a name="N123F6"></a>Mod&egrave;le de ruissellement</h5></div></div></div><p>La pluie de projet est la pluie &laquo; brute &raquo; tombant sur l'ensemble du bassin versant de fa&ccedil;on homog&egrave;ne. Pour un bassin versant urbain, la pluie nette est tout simplement la part ruissel&eacute;e de la pluie brute. Le coefficient de ruissellement de notre exemple est &eacute;gal &agrave; 40%. Le hy&eacute;togramme de la pluie nette se d&eacute;duit du hy&eacute;togramme de la pluie brute : on reprend les m&ecirc;mes dur&eacute;es, mais on ne consid&egrave;re que 40% des hauteurs d'eau. Autrement dit, seule la lame d'eau pr&eacute;cipit&eacute;e sur les surfaces imperm&eacute;ables participe au ruissellement.</p><p><span class="inlinemediaobject"><img src="images/img077.png"></span>
+    </p></div><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h5 class="title"><a name="Chap32163"></a>Mod&egrave;le du r&eacute;servoir lin&eacute;aire simple</h5></div></div></div><p>Le mod&egrave;le de transformation pluie-d&eacute;bit est le m&ecirc;me pour les bassins versants urbains et ruraux. C'est un mod&egrave;le conceptuel : on stocke la pluie nette dans un bassin qu'on vidange au fur et &agrave; mesure, d'o&ugrave; le nom &laquo; mod&egrave;le de r&eacute;servoir lin&eacute;aire &raquo;. Les deux &eacute;quations r&eacute;gissant le fonctionnement de ce mod&egrave;le sont les suivantes :</p><div class="informaltable"><table border="1"><colgroup><col width="226"><col width="302"></colgroup><tbody><tr><td align="left" valign="middle">
+      <p>Une &eacute;quation de stockage</p>
+     </td><td align="left" valign="middle">
+      <p><span class="inlinemediaobject"><img src="images/Objet65.png"></span>
+       </p>
+     </td></tr><tr><td align="left" valign="middle">
+      <p>Une &eacute;quation de conservation</p>
+     </td><td align="left" valign="middle">
+      <p><span class="inlinemediaobject"><img src="images/Objet66.png"></span>
+       </p>
+     </td></tr></tbody></table></div><div class="informaltable"><table border="1"><colgroup><col width="120"><col width="362"></colgroup><tbody><tr><td>
+      <p>S(t)</p>
+     </td><td>
+      <p>volume stock&eacute; &agrave; l'instant t sur le bassin et dans le r&eacute;seau en mm</p>
+     </td></tr><tr><td>
+      <p>Q(t)</p>
+     </td><td>
+      <p>d&eacute;bit &agrave; l'exutoire du bassin &agrave; l'instant t en mm</p>
+     </td></tr><tr><td>
+      <p>I<sub>n</sub>(t)</p>
+     </td><td>
+      <p>intensit&eacute; de la pluie nette tombant &agrave; l'instant t sur le bassin en mm</p>
+     </td></tr><tr><td>
+      <p>K</p>
+     </td><td>
+      <p>param&egrave;tre caract&eacute;ristique du bassin versant (cf. suite)</p>
+     </td></tr></tbody></table></div><p>L'&eacute;quation de conservation traduit, &agrave; chaque instant, la variation du stockage qui est &eacute;gale &agrave; la diff&eacute;rence entre flux entrant et sortant.</p><p>En combinant ces deux &eacute;quations, on obtient la relation suivante : </p><p><span class="inlinemediaobject"><img src="images/Objet67.png"></span>
+    </p><p>dont la solution a pour expression :</p><p><span class="inlinemediaobject"><img src="images/Objet68.png"></span>
+    </p><p>Le param&egrave;tre K de l'&eacute;quation de stockage est homog&egrave;ne &agrave; un temps. Il traduit le d&eacute;calage dans le temps des centres de gravit&eacute; de la pluie (hy&eacute;togramme) et du d&eacute;bit (hydrogramme), c'est en quelque sorte le temps de r&eacute;ponse. Dans la version actuelle d'Hydrouti, ce param&egrave;tre n'est pas encore modifiable ; on impose une valeur calcul&eacute;e avec l'&eacute;quation suivante :</p><p><span class="inlinemediaobject"><img src="images/Objet69.png"></span>
+    </p><div class="informaltable"><table border="1"><colgroup><col width="120"><col width="362"></colgroup><tbody><tr><td>
+      <p>K</p>
+     </td><td>
+      <p>param&egrave;tre (en mn)</p>
+     </td></tr><tr><td>
+      <p>A</p>
+     </td><td>
+      <p>surface (en ha)</p>
+     </td></tr><tr><td>
+      <p>I</p>
+     </td><td>
+      <p>pente hydraulique (en %)</p>
+     </td></tr><tr><td>
+      <p>IMP</p>
+     </td><td>
+      <p>imperm&eacute;abilisation (en %)</p>
+     </td></tr><tr><td>
+      <p>TP</p>
+     </td><td>
+      <p>dur&eacute;e de la p&eacute;riode intense de la pluie abattue (en mn)</p>
+     </td></tr><tr><td>
+      <p>L</p>
+     </td><td>
+      <p>longueur hydraulique (en m)</p>
+     </td></tr><tr><td>
+      <p>HP</p>
+     </td><td>
+      <p>hauteur tomb&eacute;e durant TP (en mm)</p>
+     </td></tr></tbody></table></div><p>Le domaine de validit&eacute; de cette relation est </p><div class="informaltable"><table border="1"><colgroup><col width="132"><col width="185"><col width="211"></colgroup><tbody><tr><td align="left">
+      <p><span class="strong"><strong>Param&egrave;tres</strong></span></p>
+     </td><td align="left">
+      <p><span class="strong"><strong>Borne inf&eacute;rieure</strong></span></p>
+     </td><td align="left">
+      <p><span class="strong"><strong>Borne sup&eacute;rieure</strong></span></p>
+     </td></tr><tr><td align="left">
+      <p>A</p>
+     </td><td align="left">
+      <p>0.4</p>
+     </td><td align="left">
+      <p>5 000 ha</p>
+     </td></tr><tr><td align="left">
+      <p>IMP</p>
+     </td><td align="left">
+      <p>20 %</p>
+     </td><td align="left">
+      <p>100 %</p>
+     </td></tr><tr><td align="left">
+      <p>L</p>
+     </td><td align="left">
+      <p>110 m</p>
+     </td><td align="left">
+      <p>17 800 m</p>
+     </td></tr><tr><td align="left">
+      <p>I</p>
+     </td><td align="left">
+      <p>0.4 %</p>
+     </td><td align="left">
+      <p>4.7 %</p>
+     </td></tr><tr><td align="left">
+      <p>TP</p>
+     </td><td align="left">
+      <p>5 mn</p>
+     </td><td align="left">
+      <p>180 mn</p>
+     </td></tr><tr><td align="left">
+      <p>HP</p>
+     </td><td align="left">
+      <p>5 mm</p>
+     </td><td align="left">
+      <p>240 mm</p>
+     </td></tr></tbody></table></div><p>Les essais de calage du mod&egrave;le sur la valeur du d&eacute;bit de pointe ont montr&eacute; que pour reproduire cette valeur avec une meilleure pr&eacute;cision, il convenait de r&eacute;duire la valeur de K &agrave; :</p><div class="informaltable"><table border="1"><colgroup><col width="207"><col width="359"></colgroup><tbody><tr><td align="left" valign="middle">
+      <p>Bassins de surface &lt; 6 ha</p>
+     </td><td align="left" valign="middle">
+      <p><span class="inlinemediaobject"><img src="images/Objet175.png"></span>
+       </p>
+     </td></tr><tr><td align="left" valign="middle">
+      <p>Bassins de surface &lt; 250 ha</p>
+     </td><td align="left" valign="middle">
+      <p><span class="inlinemediaobject"><img src="images/Objet176.png"></span>
+       </p>
+     </td></tr></tbody></table></div><p>On obtient pour notre exemple l'hydrogramme suivant </p><div class="mediaobject"><img src="images/img078.png"></div><p>
+    </p><p>Le d&eacute;bit maximal d'eau pluviale Q<sub>pluieORA</sub> est environ :</p><div class="mediaobject"><img src="images/img079.png"></div><p>
+    </p><p>D'o&ugrave; finalement le d&eacute;bit d'orage Q<sub>ora</sub> calcul&eacute; par la m&eacute;thode de l'hydrogramme :</p><div class="mediaobject"><img src="images/img080.png"></div><p>
+    </p></div></div></div><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h3 class="title"><a name="N12659"></a>Bassin versant rural : Q<sub>ts</sub></h3></div></div></div><p>L'exemple de calcul pour un bassin versant rural qui suit correspond &agrave; l'exemple &laquo; D&eacute;mo BV rural &raquo;. Pour l'ouvrir, il faut cliquer sur ouvrir dans le menu &laquo; Bassin versant &raquo;, et ensuite s&eacute;lectionner &laquo; D&eacute;mo BV rural &raquo; dans la fen&ecirc;tre de s&eacute;lection (cf &laquo;&nbsp;<span class="quote">chapitre </span>&nbsp;&raquo;&laquo;&nbsp;<span class="quote"><a class="link" href="ch03s02.html#Chap321" title="Bassin versant urbain : Qts, Qr&eacute;f et Qora">3.2.1</a></span>&nbsp;&raquo; - Ouverture de &laquo; D&eacute;mo BV urbain &raquo;).</p><p>Dans le cas d'un bassin rural, les apports d'eau pour le d&eacute;bit &agrave; l'exutoire ont une unique origine : l'eau pluviale.</p><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h4 class="title"><a name="N12669"></a>La m&eacute;thode rationnelle</h4></div></div></div><p>La m&eacute;thode rationnelle est applicable sur des bassins versants dont les superficies sont inf&eacute;rieures &agrave; quelques kilom&egrave;tres carr&eacute;s. </p></div><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h4 class="title"><a name="N1266E"></a>La m&eacute;thode superficielle de Caquot</h4></div></div></div><p>La m&eacute;thode superficielle de Caquot n'est applicable qu'&agrave; des bassins versants urbanis&eacute;s, dont les superficies sont inf&eacute;rieures &agrave; quelques dizaines d'hectares. Elle n'est donc pas conseill&eacute;e pour un bassin versant rural, mais Hydrouti effectue malgr&eacute; tout le calcul et laisse la possibilit&eacute; &agrave; l'utilisateur de choisir cette m&eacute;thode.</p></div><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h4 class="title"><a name="N12673"></a>La m&eacute;thode de l'hydrogramme</h4></div></div></div><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h5 class="title"><a name="N12676"></a>Pluie de projet</h5></div></div></div><p>La pluie de projet s'obtient de la m&ecirc;me mani&egrave;re que pour un bassin urbain (cf. Chapitre &laquo;&nbsp;<span class="quote"><a class="link" href="ch03s02.html#Chap32161" title="Pluie de projet">3.2.1.6.1</a></span>&nbsp;&raquo;&laquo;&nbsp;<span class="quote"> - </span>&nbsp;&raquo;&laquo;&nbsp;<span class="quote"><a class="link" href="ch03s02.html#Chap32161" title="Pluie de projet">Pluie de projet</a></span>&nbsp;&raquo; ).</p></div><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h5 class="title"><a name="N12686"></a>M&eacute;thode des pertes Estimation des pertes initiales</h5></div></div></div><p>Elles sont constitu&eacute;es par :</p><div class="itemizedlist"><ul><li><p>interception de la pluie par la v&eacute;g&eacute;tation,</p></li><li><p>et surtout par la r&eacute;tention dans le sol.</p></li></ul></div><p>Il semble que l'interception ne p&egrave;se sur les pertes initiales que si la couverture v&eacute;g&eacute;tale est importante. La r&eacute;tention du sol prend la part la plus importante en g&eacute;n&eacute;ral : les valeurs habituellement consid&eacute;r&eacute;es varient environ entre 0.2 mm et 15 mm. (Voir exemples au chapitre &laquo;&nbsp;<span class="quote"><a class="link" href="ch02s02.html#BVEstimationPertesInitiales" title="Estimation des pertes initiales">2.2.4.1.4</a></span>&nbsp;&raquo;&laquo;&nbsp;<span class="quote"> - </span>&nbsp;&raquo;&laquo;&nbsp;<span class="quote"><a class="link" href="ch02s02.html#BVEstimationPertesInitiales" title="Estimation des pertes initiales">Estimation des pertes initiales</a></span>&nbsp;&raquo;&laquo;&nbsp;<span class="quote"> </span>&nbsp;&raquo;).</p></div><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h5 class="title"><a name="N126A1"></a>Estimation des pertes continues : Loi de Horton</h5></div></div></div><p>La vitesse d'infiltration diminue au cours du temps, pour atteindre une valeur constante minimale. La loi de Horton (voir chapitre &laquo;&nbsp;<span class="quote"><a class="link" href="ch02s02.html#BVEstimationPertesContinues" title="Estimation des pertes continues">2.2.4.1.5</a></span>&nbsp;&raquo;&laquo;&nbsp;<span class="quote"> - </span>&nbsp;&raquo;&laquo;&nbsp;<span class="quote"><a class="link" href="ch02s02.html#BVEstimationPertesContinues" title="Estimation des pertes continues">Estimation des pertes continues</a></span>&nbsp;&raquo; )mod&eacute;lise ce ph&eacute;nom&egrave;ne, avec la fonction en exponentielle suivante :</p><p><span class="inlinemediaobject"><img src="images/Objet70.png"></span>
+    </p><div class="informaltable"><table border="1"><colgroup><col width="120"><col width="362"></colgroup><tbody><tr><td>
+      <p>f(t)</p>
+     </td><td>
+      <p>vitesse d'infiltration au temps t en (mm/h)</p>
+     </td></tr><tr><td>
+      <p>f<sub>c</sub></p>
+     </td><td>
+      <p>vitesse limite d'infiltration (en mm/h)</p>
+     </td></tr><tr><td>
+      <p>a et b</p>
+     </td><td>
+      <p>param&egrave;tres de la loi de Horton</p>
+     </td></tr></tbody></table></div></div><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h5 class="title"><a name="N126F4"></a>Choix de f<sub>c</sub> (vitesse d'infiltration limite)</h5></div></div></div><p>f<sub>c</sub> caract&eacute;rise la perm&eacute;abilit&eacute; du sol qui compose le bassin versant. On a par exemple relev&eacute;, pour des terrains nus, les ordres de grandeurs suivants:</p><div class="itemizedlist"><ul><li><p>Terre sableuse : f<sub>c</sub> = 15 &agrave; 25 mm/h.</p></li><li><p>Terre lourde : f<sub>c</sub> = 3 &agrave; 5 mm/h.</p></li><li><p>Terre argileuse : f<sub>c</sub> = 1 &agrave; 3 mm/h.</p></li></ul></div></div><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h5 class="title"><a name="N12712"></a>Choix de a (vitesse d'infiltration initiale)</h5></div></div></div><p>Si f<sub>c</sub> est une caract&eacute;ristique du bassin, a est variable et d&eacute;pend de l'&eacute;tat de saturation du sol au d&eacute;but de l'averse, et donc des conditions pluviom&eacute;triques ant&eacute;rieures. Il sera moindre si le sol est d&eacute;j&agrave; humide.</p><p>Ce param&egrave;tre repr&eacute;sente en fait la vitesse d'infiltration initiale f<sub>0</sub> :</p><p><span class="inlinemediaobject"><img src="images/Objet71.png"></span>
+    </p><p>On a observ&eacute; des valeurs de f<sub>0</sub> comprises entre 20 et 100 mm/h pour des sols secs. L'estimation de a doit tenir compte du fait que si la vitesse d'infiltration f<sub>c</sub> <span class="strong"><strong>augmente :</strong></span></p><div class="itemizedlist"><ul><li><p>si la r&eacute;tention de surface <span class="strong"><strong>augmente </strong></span>alors f<sub>0</sub> <span class="strong"><strong>augmente,</strong></span></p></li><li><p>le taux de saturation <span class="strong"><strong>augmente.</strong></span></p></li></ul></div></div><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h5 class="title"><a name="N12746"></a>Choix de b (rapidit&eacute; d'&eacute;volution de la vitesse d'infiltration)</h5></div></div></div><p>Le param&egrave;tre b repr&eacute;sente la rapidit&eacute; d'&eacute;volution de la courbe d'infiltration entre les valeurs f<sub>0</sub> et f<sub>c</sub>. Ce coefficient est d'autant plus petit que la surface du sol est plus favorable &agrave; l'infiltration (r&eacute;tention de surface importante, terrain meuble, &hellip;).</p><p>Un &eacute;l&eacute;ment d'appr&eacute;ciation important est la dur&eacute;e Ts au bout de laquelle un sol atteint la saturation dans des conditions moyennes d'humidit&eacute; initiale, sous de fortes averses continues. Cette dur&eacute;e est de 12 &agrave; 24 heures dans les r&eacute;gions &agrave; forte pluviom&eacute;trie comme le sud de la France. Elle peut atteindre 2 &agrave; 3 jours dans d'autres r&eacute;gions et pour certains sols tr&egrave;s perm&eacute;ables. </p></div><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h5 class="title"><a name="N12753"></a>Temps de r&eacute;ponse</h5></div></div></div><p>Le temps de r&eacute;ponse est caract&eacute;ristique du bassin versant : il peut varier de quelques minutes (un d&eacute;bit g&eacute;n&eacute;r&eacute; quasi-instantan&eacute;ment) &agrave; plusieurs dizaines d'heures. Sa d&eacute;termination est tr&egrave;s d&eacute;licate, dans le sens o&ugrave; la valeur du d&eacute;bit g&eacute;n&eacute;r&eacute; est tr&egrave;s sensible par rapport &agrave; ce temps de r&eacute;ponse. </p></div><div class="section" lang="fr-FR"><div class="titlepage"><div><div><h5 class="title"><a name="N12758"></a>Mod&egrave;le du r&eacute;servoir lin&eacute;aire double</h5></div></div></div><p>Le mod&egrave;le est quasiment le m&ecirc;me que pour un bassin versant urbain (cf. chapitre &laquo;&nbsp;<span class="quote"><a class="link" href="ch03s02.html#Chap32163" title="Mod&egrave;le du r&eacute;servoir lin&eacute;aire simple">3.2.1.6.3</a></span>&nbsp;&raquo;&laquo;&nbsp;<span class="quote"> - </span>&nbsp;&raquo;&laquo;&nbsp;<span class="quote"><a class="link" href="ch03s02.html#Chap32163" title="Mod&egrave;le du r&eacute;servoir lin&eacute;aire simple">Mod&egrave;le du r&eacute;servoir lin&eacute;aire simple</a></span>&nbsp;&raquo; ). Dans ce cas, c'est en fait un mod&egrave;le &agrave; &laquo; double &raquo; r&eacute;servoirs lin&eacute;aires : on met en s&eacute;rie deux mod&egrave;les &agrave; r&eacute;servoir lin&eacute;aire simple.</p><div class="note"><table border="0" summary="Note"><tr><td valign="top" align="center" rowspan="2" width="25"><img alt="[Note]" src="chmicons/note.png"></td><th align="left">Note</th></tr><tr><td valign="top" align="left"><p>Pour l'ensemble des param&egrave;tres utilis&eacute;s dans le mod&egrave;le, il est tr&egrave;s important de relever un maximum de &laquo; donn&eacute;es de terrain &raquo; (y compris se renseigner aupr&egrave;s des habitants de la localit&eacute; sur les &eacute;tats et &eacute;volutions pass&eacute;s du bassin versant) afin d'&eacute;viter toute erreur grossi&egrave;re. L'utilisation de donn&eacute;es &laquo; standard &raquo; issues de la litt&eacute;rature, sans aucune visite du site est &agrave; proscrire. </p></td></tr></table></div><p>Pour une approche la d&eacute;marche suivante peut &ecirc;tre appliqu&eacute;e :</p><div class="orderedlist"><ol type="1"><li><p>L'utilisateur pr&eacute;cise les caract&eacute;ristiques principales (Surface, longueur, pente et coefficient de ruissellement)</p><p class="lineBreak"></p><div class="mediaobject"><img src="images/img058.png"></div><p>
+      </p></li><li><p>Il choisi une s&eacute;rie de valeurs pour les pertes initiales et continues et le temps de r&eacute;ponse</p><p class="lineBreak"></p><div class="mediaobject"><img src="images/img081.png"></div><p>
+      </p></li><li><p>A partir des r&eacute;sultats donn&eacute;s par HYDROUTI, l'utilisateur peut comparer le r&eacute;sultat de la m&eacute;thode de l'hydrogramme avec celui de la m&eacute;thode rationnelle et ajuster les param&egrave;tres afin d'obtenir une concordance.</p><p class="lineBreak">R&eacute;sultats avant ajustement :</p><div class="mediaobject"><img src="images/img082.png"></div><p>
+      </p></li><li><p>Le d&eacute;bit de l'hydrogramme est plus faible que celui de la m&eacute;thode rationnelle alors que le coefficient de ruissellement est sup&eacute;rieur. Il faut modifier la loi d'infiltration et le temps de r&eacute;ponse.</p><p>R&eacute;sultats apr&egrave;s ajustement :</p><p class="lineBreak"></p><div class="mediaobject"><img src="images/img083.png"></div><p>
+      </p><p>On obtient, pour notre exemple l'hydrogramme suivant :</p></li></ol></div><div class="mediaobject"><img src="images/img084.png"></div><p>
+    </p></div></div></div></div></body></html>

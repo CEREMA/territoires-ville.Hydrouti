@@ -1,0 +1,54 @@
+[OPTIONS]
+Binary TOC=Yes
+Compatibility=1.1 or later
+Compiled file=htmlhelp.chm
+Contents file=toc.hhc
+Default Window=Main
+Default topic=index.html
+Display compile progress=Yes
+Full-text search=Yes
+Language=0x040c French (FRANCE)
+Title=Hydrouti 1.1
+Enhanced decompilation=No
+
+[WINDOWS]
+Main="Hydrouti 1.1","toc.hhc",,"index.html","index.html","pr01.html","Support","http://www.certu.fr/doc/technologies/its/","WWW-ITS",0x2520,,0x6C3006,,,,,,,,0
+
+
+[FILES]
+index.html
+pr01.html
+pr02.html
+ch01.html
+ch01s01.html
+ch01s02.html
+ch01s03.html
+ch01s04.html
+ch02.html
+ch02s01.html
+ch02s02.html
+ch02s03.html
+ch02s04.html
+ch02s05.html
+ch02s06.html
+ch02s07.html
+ch02s08.html
+ch02s09.html
+ch02s10.html
+ch02s11.html
+ch03.html
+ch03s01.html
+ch03s02.html
+ch03s03.html
+ch03s04.html
+ch03s05.html
+ch03s06.html
+ch03s07.html
+ch03s08.html
+ch03s09.html
+ch03s10.html
+ch03s11.html
+
+[MAP]
+#include context.h
+
