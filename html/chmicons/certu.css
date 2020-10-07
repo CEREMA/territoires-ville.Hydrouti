@@ -1,0 +1,315 @@
+/*
+CSS Certu - HtmlHelp - CHM
+Version 1.4
+Date : 23/11/2006
+Modif class blockquote et attribution
+*/
+body {
+	color: black;
+	background: white;
+	margin-left: 3%;
+	margin-right: 3%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+/*Links*/
+a:link {
+	color: navy;
+	}
+a:visited {
+	color: navy;
+	}
+/* saut apres les paragraphes */
+p  {
+	margin: 0.4em 0 0.4em 0;
+}
+/* Listes */
+
+li,ul {
+	margin: 0 0 0 1em;
+}
+li p {
+	margin: 0 0 0.3em 0;
+}
+
+/*Titre du document*/
+h1.title {
+	font-size: 2em;
+	color: blue;
+	background: white;
+	text-align: center;
+	border: thin none;
+	background-color: #EAEAEA;
+	padding: 1em;
+}
+/*Sous-titre du document*/
+h2.subtitle {
+	font-size: 1.4em;
+	color: #6061FF;
+	background: white;
+	text-align: center;
+}
+
+h3.author {
+font-size:1em;
+}
+div.affiliation, div.bibliomisc{
+	font-size:  90%;
+}
+
+/*Titre de section, preface, annexes*/
+/* h2 = titre1 ; chapitre, preface, ou annexe*/
+h2.title, h3.title, h4.title, h5.title, h6.title {
+	color: #002DE5;
+	text-align: left;
+}
+h2.title {
+	font-size: 2em;
+	border-bottom: 4px solid #002DE5;
+	padding-bottom: 0.2em;
+	margin-bottom: 1em;
+}
+/* h3 = titre2 */
+h3.title {
+	font-size: 1.7em;
+	margin-bottom: 0.7em;
+}
+/* h4 = titre3 */
+h4.title {
+	font-size: 1.5em;
+	margin-bottom: 0.5em;
+}
+/* h5 = titre4 */
+h5.title {
+	font-size: 1.3em;
+	margin-bottom: 0.5em;
+}
+/* h6 = titre5 */
+h6.title {
+	font-size: 1.1em;
+	margin-bottom: 0.5em;
+}
+
+hr {
+	margin : 0;
+}
+
+/* Tableaux */
+table {
+	background: white;
+	border-collapse: collapse;
+	border: 0.5pt solid Black;
+}
+th {
+	background: #E6E6E6;
+	border: 0.5pt solid Black;
+	padding: 4pt 4pt 4pt 4pt ;
+}
+td {
+     background: white;
+	  border: 0.5pt solid Black;
+	  padding: 4pt 4pt 4pt 4pt ;
+}
+
+/* navheader navfooter */
+/* compatibilite IE pour CHM on supprime les margin négatifs !!! */
+div.navheader, div.navfooter {
+	font-size: 0.8em;
+}
+div.navheader table, div.navfooter table {
+	border: none;
+}
+div.navheader th, div.navfooter th {
+	background: none;
+	border:none;
+	padding: 0pt 0pt 0pt 0pt ;
+}
+div.navheader td, div.navfooter td {
+	background: none;
+	border:none;
+	padding: 0pt 0pt 0pt 0pt ;
+}
+div.navheader hr {
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+}
+div.navfooter hr {
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+}
+
+/* Table des matieres - Liste des figures - Liste des tables*/
+div.toc, div.list-of-figures, div.list-of-tables {
+	margin-left: 5%;
+	border: none;
+	background: #E6E6E6;
+	padding: none;
+	font-size:80%;
+}
+div.toc a:link, div.list-of-figures a:link, div.list-of-tables a:link {
+	color:black;
+	text-decoration: none;
+}
+div.toc a:visited, div.list-of-figures a:visited, div.list-of-tables a:visited {
+	color:black;
+	text-decoration: none;
+}
+div.toc a:active, div.list-of-figures a:active, div.list-of-tables a:active {
+	color:black;
+	text-decoration: none;
+}
+div.toc a:hover, div.list-of-figures a:hover, div.list-of-tables a:hover {
+	color: black;
+}
+
+div.toc p, div.list-of-figures p, div.list-of-tables p {
+	font-size: 1.5em;
+	line-height: 2em;
+}
+div.toc .preface {
+	font-size: 1.2em;
+	line-height: 2em;
+}
+div.toc .chapter {
+	font-size: 1.2em;	
+	margin-bottom: 0.5em;
+	line-height: 2em;
+}
+div.toc .appendix {
+	font-size: 1.2em;	
+	margin-bottom: 0.5em;
+	line-height: 2em;
+}
+div.toc .section {
+	font-size: 1em;	
+}
+
+
+/* ProgramListings */
+pre { 
+	font-family: "courier new", courier, monospace;
+	color: Blue;
+	background-color : #EAEAEA;
+	margin: 0.5em 0 2em 0;
+	padding:0.2em;
+	text-align:left;
+	font-size: 90%;
+	}
+
+/* Footnotes */
+div.footnotes p {
+	background: white;
+	color: black;
+	font-size: 85%;
+	margin-left: 0%;
+	}
+
+/* les tableaux sans legende */
+div.informaltable {
+	margin: 1em 0 1em 0;
+}
+/* les tableaux avec legende */
+div.table {
+	margin: 1.5em 0 1em 0;
+}
+div.table p.title {
+	font-size: 0.9em;
+	margin: 0.3em 0 0 0;
+	font-style: italic;
+}
+
+div.table-contents p {
+   font-size: 0.9em;
+   margin: 0 0 0 0;
+   }
+/* Attention modif par rapport a la version XHTML pour etre compatible avec IE dans les CHM !! */
+div.table-contents li {
+	list-style: square;
+	margin-left: 10pt;
+}
+
+	
+/* texte de base dans les sections */
+div.section>p { 
+   text-align: justify;
+   margin: 0 0 0.3em 0;
+   }
+
+/* les differentes notes : caution, warning, tip, important et notes   */
+div.caution table, div.warning table, div.tip table, div.important table, div.note table {
+	margin: 0.8em 0 0.8em 0;
+	border:none;
+	padding: 0 0 0 0;
+}
+div.caution td, div.warning td, div.tip td, div.important td, div.note td {
+	padding: 0pt 0pt 0pt 0pt ;
+	border:none;
+}
+div.caution p, div.warning p, div.tip p, div.important p, div.note p {
+	background-color:white;
+	font-size:0.9em;
+	margin: 0 0 0 0;
+	padding: 0pt 0pt 0pt 10pt ;
+	text-align:left;
+	border:none;
+}
+div.caution th {
+	background-color:white;
+	border:none;
+	color:red;
+	font-size:1.5em;
+	padding: 0pt 0pt 0pt 10pt ;
+}
+div.warning th {
+	background-color:white;
+	border:none;
+	color:red;
+	font-size:1.5em;
+	padding: 0pt 0pt 0pt 10pt ;
+}
+div.tip th {
+	background-color:white;
+	border:none;
+	color:blue;
+	font-size:1.5em;
+	padding: 0pt 0pt 0pt 10pt ;
+}
+div.important th {
+	background-color:white;
+	border:none;
+	color:black;
+	font-size:1.5em;
+	padding: 0pt 0pt 0pt 10pt ;
+}
+div.note th {
+	background-color:white;
+	border:none;
+	color:black;
+	font-size:1.5em;
+	padding: 0pt 0pt 0pt 10pt ;
+}
+/* les images avec legende */
+div.figure {
+	margin: 1em 0 1em 0;
+}
+div.figure p.title {
+	font-size: 0.9em;
+	margin: 0.3em 0 0 0;
+	font-style: italic;
+}
+/* les blockquote  */
+div.blockquote table {
+	margin: 0.8em 0 0.8em 0;
+	border:none;
+	padding: 0 0 0 0;
+}
+div.blockquote td {
+	border:none;
+	padding: 0 0 0 0;
+	color:Navy;
+	font-size:0.8em;
+}
+td span.attribution {
+	color: Navy;
+	font-size: 1em;
+	font-style: italic;
+}
