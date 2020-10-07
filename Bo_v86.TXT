@@ -1,0 +1,3 @@
+Le fichier .cab de votre application a été généré en tant que 'C:\Hydraulique\bo_v800_600\instal2\hydrouti.CAB'.
+
+Il y a également dans le dossier de support (C:\Hydraulique\bo_v800_600\instal2\Support\hydrouti.BAT) un fichier de commandes qui vous permettra de recréer le fichier .cab si vous modifiez certains des fichiers.

@@ -1,0 +1,741 @@
+[Root]
+Most Recent Package=hydrouti_instal
+
+
+[Package|Logiciel d'installation standard 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Hydraulique\bo_v800_600\install1
+
+[Package|Logiciel d'installation standard 1|Configure DAO ISAMs]
+Applicable=Yes
+Text=No
+Excel=No
+Xbase=No
+Jet 2.x=Yes
+
+[Package|Logiciel d'installation standard 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Logiciel d'installation standard 1|Files Found]
+
+[Package|Logiciel d'installation standard 1|Files Released]
+test.rtf=
+aide.rtf=
+
+[Package|Logiciel d'installation standard 1|Missing Dependency Information]
+C:\Program Files\Microsoft Office\Office\MSWORD9.OLB=
+
+[Package|Logiciel d'installation standard 1|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\comdlg32.ocx=
+C:\WINDOWS\SYSTEM\scrrun.dll=
+
+[Package|Logiciel d'installation standard 1|Files Added]
+c:\hydraulique\bo_v800_600\aide\bte_1.rtf=
+c:\hydraulique\bo_v800_600\bv.bmp=
+c:\hydraulique\bo_v800_600\aide\bv.rtf=
+c:\hydraulique\bo_v800_600\do_bassin.bmp=
+c:\hydraulique\bo_v800_600\aide\titre.rtf=
+c:\hydraulique\bo_v800_600\aide\titrebv.rtf=
+c:\hydraulique\bo_v800_600\aide\titrech.rtf=
+c:\hydraulique\bo_v800_600\aide\titreco.rtf=
+c:\hydraulique\bo_v800_600\aide\titredec.rtf=
+c:\hydraulique\bo_v800_600\aide\titredo.rtf=
+c:\hydraulique\bo_v800_600\aide\titreret.rtf=
+c:\hydraulique\bo_v800_600\aide\titresi.rtf=
+c:\hydraulique\bo_v800_600\aide\titresto.rtf=
+c:\hydraulique\bo_v800_600\defchamps.hyo=
+c:\hydraulique\bo_v800_600\aide\chute.rtf=
+c:\hydraulique\bo_v800_600\aide\conduite.rtf=
+c:\hydraulique\bo_v800_600\aide\décantation.rtf=
+c:\hydraulique\bo_v800_600\aide\do.rtf=
+c:\hydraulique\bo_v800_600\aide\retenue.rtf=
+c:\hydraulique\bo_v800_600\aide\siphon.rtf=
+c:\hydraulique\bo_v800_600\aide\stockage.rtf=
+c:\hydraulique\bo_v800_600\texte.bmp=
+
+[Package|Logiciel d'installation standard 1|Files Removed]
+
+[Package|Logiciel d'installation standard 1|Files In Project]
+C:\Hydraulique\bo_v800_600\hydrouti.exe=Yes
+C:\WINDOWS\SYSTEM\msvbvm60.dll=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\VB6FR.DLL=Yes
+C:\Program Files\Fichiers communs\Microsoft Shared\DAO\Dao350.dll=Yes
+C:\WINDOWS\SYSTEM\MSJET35.DLL=Yes
+C:\WINDOWS\SYSTEM\MSJTER35.DLL=Yes
+C:\WINDOWS\SYSTEM\MSJINT35.DLL=Yes
+C:\WINDOWS\SYSTEM\VBAJET32.DLL=Yes
+C:\WINDOWS\SYSTEM\expsrv.dll=Yes
+C:\WINDOWS\SYSTEM\MSRD2X35.DLL=Yes
+C:\WINDOWS\SYSTEM\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\SYSTEM\VB5DB.DLL=Yes
+C:\WINDOWS\SYSTEM\scrrun.dll=Yes
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=Yes
+C:\WINDOWS\SYSTEM\scrrnfr.dll=Yes
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM\TABCTFR.DLL=Yes
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\SYSTEM\RCHTXFR.DLL=Yes
+C:\WINDOWS\SYSTEM\comdlg32.ocx=Yes
+C:\WINDOWS\SYSTEM\CMDLGFR.DLL=Yes
+C:\WINDOWS\SYSTEM\COMCT232.OCX=Yes
+C:\WINDOWS\SYSTEM\CMCT2FR.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Hydraulique\bo_v800_600\aide\Bte_1.rtf=Yes
+C:\Hydraulique\bo_v800_600\bv.bmp=Yes
+C:\Hydraulique\bo_v800_600\aide\BV.rtf=Yes
+C:\Hydraulique\bo_v800_600\DO_Bassin.bmp=Yes
+C:\Hydraulique\bo_v800_600\aide\Titre.rtf=Yes
+C:\Hydraulique\bo_v800_600\aide\TitreBV.rtf=Yes
+C:\Hydraulique\bo_v800_600\aide\TitreCH.rtf=Yes
+C:\Hydraulique\bo_v800_600\aide\TitreCO.rtf=Yes
+C:\Hydraulique\bo_v800_600\aide\TitreDEC.rtf=Yes
+C:\Hydraulique\bo_v800_600\aide\TitreDO.rtf=Yes
+C:\Hydraulique\bo_v800_600\aide\TitreRET.rtf=Yes
+C:\Hydraulique\bo_v800_600\aide\TitreSI.rtf=Yes
+C:\Hydraulique\bo_v800_600\aide\TitreSTO.rtf=Yes
+C:\Hydraulique\bo_v800_600\defchamps.hyo=Yes
+C:\Hydraulique\bo_v800_600\Hydrouti.dll=Yes
+C:\Hydraulique\bo_v800_600\aide\Chute.rtf=Yes
+C:\Hydraulique\bo_v800_600\aide\conduite.rtf=Yes
+C:\Hydraulique\bo_v800_600\aide\Décantation.rtf=Yes
+C:\Hydraulique\bo_v800_600\aide\DO.rtf=Yes
+C:\Hydraulique\bo_v800_600\aide\Retenue.rtf=Yes
+C:\Hydraulique\bo_v800_600\aide\Siphon.rtf=Yes
+C:\Hydraulique\bo_v800_600\aide\Stockage.rtf=Yes
+C:\Hydraulique\bo_v800_600\texte.bmp=Yes
+C:\Program Files\Microsoft Office\Office\MSWORD9.OLB=Yes
+
+[Package|Logiciel d'installation standard 1|Configure Registry Files]
+Applicable=No
+
+[Package|Logiciel d'installation standard 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Logiciel d'installation standard 1|Install Locations]
+C:\Hydraulique\bo_v800_600\hydrouti.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB6FR.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office\MSWORD8.OLB=$(WinSysPath)
+C:\Program Files\Fichiers communs\Microsoft Shared\DAO\Dao350.dll=$(MSDAOPath)
+C:\WINDOWS\SYSTEM\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VBAJET32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\scrrnfr.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTFR.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\RCHTXFR.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\CMDLGFR.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMCT232.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\CMCT2FR.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Hydraulique\bo_v800_600\aide\Aide.rtf=$(AppPath)\aide
+C:\Hydraulique\bo_v800_600\aide\Bte_1.rtf=$(AppPath)\aide
+C:\Hydraulique\bo_v800_600\bv.bmp=$(AppPath)
+C:\Hydraulique\bo_v800_600\aide\BV.rtf=$(AppPath)\aide
+C:\Hydraulique\bo_v800_600\DO_Bassin.bmp=$(AppPath)
+C:\Hydraulique\bo_v800_600\aide\test.rtf=$(AppPath)\aide
+C:\Hydraulique\bo_v800_600\aide\Titre.rtf=$(AppPath)\aide
+C:\Hydraulique\bo_v800_600\aide\TitreBV.rtf=$(AppPath)\aide
+C:\Hydraulique\bo_v800_600\aide\TitreCH.rtf=$(AppPath)\aide
+C:\Hydraulique\bo_v800_600\aide\TitreCO.rtf=$(AppPath)\aide
+C:\Hydraulique\bo_v800_600\aide\TitreDEC.rtf=$(AppPath)\aide
+C:\Hydraulique\bo_v800_600\aide\TitreDO.rtf=$(AppPath)\aide
+C:\Hydraulique\bo_v800_600\aide\TitreRET.rtf=$(AppPath)\aide
+C:\Hydraulique\bo_v800_600\aide\TitreSI.rtf=$(AppPath)\aide
+C:\Hydraulique\bo_v800_600\aide\TitreSTO.rtf=$(AppPath)\aide
+C:\Hydraulique\bo_v800_600\defchamps.hyo=$(AppPath)
+C:\Hydraulique\bo_v800_600\Hydrouti.dll=$(AppPath)
+C:\Hydraulique\bo_v800_600\aide\Chute.rtf=$(AppPath)\aide
+C:\Hydraulique\bo_v800_600\aide\conduite.rtf=$(AppPath)
+C:\Hydraulique\bo_v800_600\aide\Décantation.rtf=$(AppPath)
+C:\Hydraulique\bo_v800_600\aide\DO.rtf=$(AppPath)
+C:\Hydraulique\bo_v800_600\aide\Retenue.rtf=$(AppPath)\aide
+C:\Hydraulique\bo_v800_600\aide\Siphon.rtf=$(AppPath)\aide
+C:\Hydraulique\bo_v800_600\aide\Stockage.rtf=$(AppPath)\aide
+C:\Hydraulique\bo_v800_600\texte.bmp=$(AppPath)
+C:\Program Files\Microsoft Office\Office\MSWORD9.OLB=$(WinSysPath)
+
+[Package|Logiciel d'installation standard 1|Configure Shared Files]
+Applicable=Yes
+C:\Hydraulique\bo_v800_600\hydrouti.exe=No
+C:\Hydraulique\bo_v800_600\aide\Aide.rtf=No
+C:\Hydraulique\bo_v800_600\aide\Bte_1.rtf=No
+C:\Hydraulique\bo_v800_600\bv.bmp=No
+C:\Hydraulique\bo_v800_600\aide\BV.rtf=No
+C:\Hydraulique\bo_v800_600\DO_Bassin.bmp=No
+C:\Hydraulique\bo_v800_600\aide\test.rtf=No
+C:\Hydraulique\bo_v800_600\aide\Titre.rtf=No
+C:\Hydraulique\bo_v800_600\aide\TitreBV.rtf=No
+C:\Hydraulique\bo_v800_600\aide\TitreCH.rtf=No
+C:\Hydraulique\bo_v800_600\aide\TitreCO.rtf=No
+C:\Hydraulique\bo_v800_600\aide\TitreDEC.rtf=No
+C:\Hydraulique\bo_v800_600\aide\TitreDO.rtf=No
+C:\Hydraulique\bo_v800_600\aide\TitreRET.rtf=No
+C:\Hydraulique\bo_v800_600\aide\TitreSI.rtf=No
+C:\Hydraulique\bo_v800_600\aide\TitreSTO.rtf=No
+C:\Hydraulique\bo_v800_600\defchamps.hyo=No
+C:\Hydraulique\bo_v800_600\Hydrouti.dll=No
+C:\Hydraulique\bo_v800_600\aide\Chute.rtf=No
+C:\Hydraulique\bo_v800_600\aide\conduite.rtf=No
+C:\Hydraulique\bo_v800_600\aide\Décantation.rtf=No
+C:\Hydraulique\bo_v800_600\aide\DO.rtf=No
+C:\Hydraulique\bo_v800_600\aide\Retenue.rtf=No
+C:\Hydraulique\bo_v800_600\aide\Siphon.rtf=No
+C:\Hydraulique\bo_v800_600\aide\Stockage.rtf=No
+C:\Hydraulique\bo_v800_600\texte.bmp=No
+
+[Package|Logiciel d'installation standard 1|Distribution]
+Type=multi
+Size=1.44 MB
+Title=Hydrouti
+
+[Package|Logiciel d'installation standard 1|IconGroups]
+Group0=Hydrouti
+PrivateGroup0=Faux
+Parent0=$(Programs)
+
+[Package|Logiciel d'installation standard 1|Hydrouti]
+Icon1=hydrouti.exe
+Title1=Hydrouti
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Logiciel d'installation standard 1|Package]
+PackageFolder=C:\Hydraulique\bo_v800_600\install1
+ProjectFolder=C:\Hydraulique\bo_v800_600
+ServerSideCab=
+File1=C:\Hydraulique\bo_v800_600\install1\setup.exe
+File2=C:\Hydraulique\bo_v800_600\install1\Setup.Lst
+File3=C:\Hydraulique\bo_v800_600\install1\hydrou1.CAB
+File4=C:\Hydraulique\bo_v800_600\install1\hydrou2.CAB
+File5=C:\Hydraulique\bo_v800_600\install1\hydrou3.CAB
+File6=C:\Hydraulique\bo_v800_600\install1\hydrou4.CAB
+File7=C:\Hydraulique\bo_v800_600\install1\hydrou5.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz
+
+[Package|hyd_inst2|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Hydraulique\bo_v800_600\instal2
+
+[Package|hyd_inst2|Configure DAO ISAMs]
+Applicable=Yes
+Text=No
+Excel=No
+Xbase=No
+Jet 2.x=Yes
+
+[Package|hyd_inst2|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|hyd_inst2|Files Found]
+
+[Package|hyd_inst2|Files Released]
+test.rtf=
+aide.rtf=
+
+[Package|hyd_inst2|Missing Dependency Information]
+C:\Program Files\Microsoft Office\Office\MSWORD9.OLB=
+
+[Package|hyd_inst2|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\comdlg32.ocx=
+C:\WINDOWS\SYSTEM\scrrun.dll=
+
+[Package|hyd_inst2|Files Added]
+c:\hydraulique\bo_v800_600\aide\bte_1.rtf=
+c:\hydraulique\bo_v800_600\bv.bmp=
+c:\hydraulique\bo_v800_600\aide\bv.rtf=
+c:\hydraulique\bo_v800_600\do_bassin.bmp=
+c:\hydraulique\bo_v800_600\aide\titre.rtf=
+c:\hydraulique\bo_v800_600\aide\titrebv.rtf=
+c:\hydraulique\bo_v800_600\aide\titrech.rtf=
+c:\hydraulique\bo_v800_600\aide\titreco.rtf=
+c:\hydraulique\bo_v800_600\aide\titredec.rtf=
+c:\hydraulique\bo_v800_600\aide\titredo.rtf=
+c:\hydraulique\bo_v800_600\aide\titreret.rtf=
+c:\hydraulique\bo_v800_600\aide\titresi.rtf=
+c:\hydraulique\bo_v800_600\aide\titresto.rtf=
+c:\hydraulique\bo_v800_600\defchamps.hyo=
+c:\hydraulique\bo_v800_600\aide\chute.rtf=
+c:\hydraulique\bo_v800_600\aide\conduite.rtf=
+c:\hydraulique\bo_v800_600\aide\décantation.rtf=
+c:\hydraulique\bo_v800_600\aide\do.rtf=
+c:\hydraulique\bo_v800_600\aide\retenue.rtf=
+c:\hydraulique\bo_v800_600\aide\siphon.rtf=
+c:\hydraulique\bo_v800_600\aide\stockage.rtf=
+c:\hydraulique\bo_v800_600\texte.bmp=
+
+[Package|hyd_inst2|Files Removed]
+c:\hydraulique\bo_v800_600\aide\bte_1.rtf=
+c:\hydraulique\bo_v800_600\aide\bv.rtf=
+c:\hydraulique\bo_v800_600\bv.bmp=
+c:\hydraulique\bo_v800_600\do_bassin.bmp=
+c:\hydraulique\bo_v800_600\aide\titrebv.rtf=
+c:\hydraulique\bo_v800_600\aide\titre.rtf=
+c:\hydraulique\bo_v800_600\aide\titrech.rtf=
+c:\hydraulique\bo_v800_600\aide\titreco.rtf=
+c:\hydraulique\bo_v800_600\aide\titredec.rtf=
+c:\hydraulique\bo_v800_600\aide\titredo.rtf=
+c:\hydraulique\bo_v800_600\aide\titreret.rtf=
+c:\hydraulique\bo_v800_600\aide\titresi.rtf=
+c:\hydraulique\bo_v800_600\aide\titresto.rtf=
+
+[Package|hyd_inst2|Files In Project]
+C:\Hydraulique\bo_v800_600\hydrouti.exe=Yes
+C:\WINDOWS\SYSTEM\msvbvm60.dll=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\VB6FR.DLL=Yes
+C:\Program Files\Fichiers communs\Microsoft Shared\DAO\Dao350.dll=Yes
+C:\WINDOWS\SYSTEM\MSJET35.DLL=Yes
+C:\WINDOWS\SYSTEM\MSJTER35.DLL=Yes
+C:\WINDOWS\SYSTEM\MSJINT35.DLL=Yes
+C:\WINDOWS\SYSTEM\VBAJET32.DLL=Yes
+C:\WINDOWS\SYSTEM\expsrv.dll=Yes
+C:\WINDOWS\SYSTEM\MSRD2X35.DLL=Yes
+C:\WINDOWS\SYSTEM\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\SYSTEM\VB5DB.DLL=Yes
+C:\WINDOWS\SYSTEM\scrrun.dll=Yes
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=Yes
+C:\WINDOWS\SYSTEM\scrrnfr.dll=Yes
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM\TABCTFR.DLL=Yes
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\SYSTEM\RCHTXFR.DLL=Yes
+C:\WINDOWS\SYSTEM\comdlg32.ocx=Yes
+C:\WINDOWS\SYSTEM\CMDLGFR.DLL=Yes
+C:\WINDOWS\SYSTEM\COMCT232.OCX=Yes
+C:\WINDOWS\SYSTEM\CMCT2FR.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Hydraulique\bo_v800_600\aide\Bte_1.rtf=No
+C:\Hydraulique\bo_v800_600\bv.bmp=No
+C:\Hydraulique\bo_v800_600\aide\BV.rtf=No
+C:\Hydraulique\bo_v800_600\DO_Bassin.bmp=No
+C:\Hydraulique\bo_v800_600\aide\Titre.rtf=No
+C:\Hydraulique\bo_v800_600\aide\TitreBV.rtf=No
+C:\Hydraulique\bo_v800_600\aide\TitreCH.rtf=No
+C:\Hydraulique\bo_v800_600\aide\TitreCO.rtf=No
+C:\Hydraulique\bo_v800_600\aide\TitreDEC.rtf=No
+C:\Hydraulique\bo_v800_600\aide\TitreDO.rtf=No
+C:\Hydraulique\bo_v800_600\aide\TitreRET.rtf=No
+C:\Hydraulique\bo_v800_600\aide\TitreSI.rtf=No
+C:\Hydraulique\bo_v800_600\aide\TitreSTO.rtf=No
+C:\Hydraulique\bo_v800_600\defchamps.hyo=Yes
+C:\Hydraulique\bo_v800_600\Hydrouti.dll=Yes
+C:\Hydraulique\bo_v800_600\aide\Chute.rtf=Yes
+C:\Hydraulique\bo_v800_600\aide\conduite.rtf=Yes
+C:\Hydraulique\bo_v800_600\aide\Décantation.rtf=Yes
+C:\Hydraulique\bo_v800_600\aide\DO.rtf=Yes
+C:\Hydraulique\bo_v800_600\aide\Retenue.rtf=Yes
+C:\Hydraulique\bo_v800_600\aide\Siphon.rtf=Yes
+C:\Hydraulique\bo_v800_600\aide\Stockage.rtf=Yes
+C:\Hydraulique\bo_v800_600\texte.bmp=Yes
+C:\Program Files\Microsoft Office\Office\MSWORD9.OLB=Yes
+
+[Package|hyd_inst2|Configure Registry Files]
+Applicable=No
+
+[Package|hyd_inst2|Configure Remote Servers]
+Applicable=No
+
+[Package|hyd_inst2|Install Locations]
+C:\Hydraulique\bo_v800_600\hydrouti.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB6FR.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office\MSWORD8.OLB=$(WinSysPath)
+C:\Program Files\Fichiers communs\Microsoft Shared\DAO\Dao350.dll=$(MSDAOPath)
+C:\WINDOWS\SYSTEM\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VBAJET32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\scrrnfr.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTFR.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\RCHTXFR.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\CMDLGFR.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMCT232.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\CMCT2FR.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Hydraulique\bo_v800_600\aide\Aide.rtf=$(AppPath)\aide
+C:\Hydraulique\bo_v800_600\aide\Bte_1.rtf=$(AppPath)\aide
+C:\Hydraulique\bo_v800_600\bv.bmp=$(AppPath)
+C:\Hydraulique\bo_v800_600\aide\BV.rtf=$(AppPath)\aide
+C:\Hydraulique\bo_v800_600\DO_Bassin.bmp=$(AppPath)
+C:\Hydraulique\bo_v800_600\aide\test.rtf=$(AppPath)\aide
+C:\Hydraulique\bo_v800_600\aide\Titre.rtf=$(AppPath)\aide
+C:\Hydraulique\bo_v800_600\aide\TitreBV.rtf=$(AppPath)\aide
+C:\Hydraulique\bo_v800_600\aide\TitreCH.rtf=$(AppPath)\aide
+C:\Hydraulique\bo_v800_600\aide\TitreCO.rtf=$(AppPath)\aide
+C:\Hydraulique\bo_v800_600\aide\TitreDEC.rtf=$(AppPath)\aide
+C:\Hydraulique\bo_v800_600\aide\TitreDO.rtf=$(AppPath)\aide
+C:\Hydraulique\bo_v800_600\aide\TitreRET.rtf=$(AppPath)\aide
+C:\Hydraulique\bo_v800_600\aide\TitreSI.rtf=$(AppPath)\aide
+C:\Hydraulique\bo_v800_600\aide\TitreSTO.rtf=$(AppPath)\aide
+C:\Hydraulique\bo_v800_600\defchamps.hyo=$(AppPath)
+C:\Hydraulique\bo_v800_600\Hydrouti.dll=$(AppPath)
+C:\Hydraulique\bo_v800_600\aide\Chute.rtf=$(AppPath)\aide
+C:\Hydraulique\bo_v800_600\aide\conduite.rtf=$(AppPath)
+C:\Hydraulique\bo_v800_600\aide\Décantation.rtf=$(AppPath)
+C:\Hydraulique\bo_v800_600\aide\DO.rtf=$(AppPath)
+C:\Hydraulique\bo_v800_600\aide\Retenue.rtf=$(AppPath)\aide
+C:\Hydraulique\bo_v800_600\aide\Siphon.rtf=$(AppPath)\aide
+C:\Hydraulique\bo_v800_600\aide\Stockage.rtf=$(AppPath)\aide
+C:\Hydraulique\bo_v800_600\texte.bmp=$(AppPath)
+C:\Program Files\Microsoft Office\Office\MSWORD9.OLB=$(WinSysPath)
+
+[Package|hyd_inst2|Configure Shared Files]
+Applicable=Yes
+C:\Hydraulique\bo_v800_600\hydrouti.exe=No
+C:\Hydraulique\bo_v800_600\aide\Aide.rtf=No
+C:\Hydraulique\bo_v800_600\aide\Bte_1.rtf=No
+C:\Hydraulique\bo_v800_600\bv.bmp=No
+C:\Hydraulique\bo_v800_600\aide\BV.rtf=No
+C:\Hydraulique\bo_v800_600\DO_Bassin.bmp=No
+C:\Hydraulique\bo_v800_600\aide\test.rtf=No
+C:\Hydraulique\bo_v800_600\aide\Titre.rtf=No
+C:\Hydraulique\bo_v800_600\aide\TitreBV.rtf=No
+C:\Hydraulique\bo_v800_600\aide\TitreCH.rtf=No
+C:\Hydraulique\bo_v800_600\aide\TitreCO.rtf=No
+C:\Hydraulique\bo_v800_600\aide\TitreDEC.rtf=No
+C:\Hydraulique\bo_v800_600\aide\TitreDO.rtf=No
+C:\Hydraulique\bo_v800_600\aide\TitreRET.rtf=No
+C:\Hydraulique\bo_v800_600\aide\TitreSI.rtf=No
+C:\Hydraulique\bo_v800_600\aide\TitreSTO.rtf=No
+C:\Hydraulique\bo_v800_600\defchamps.hyo=No
+C:\Hydraulique\bo_v800_600\Hydrouti.dll=No
+C:\Hydraulique\bo_v800_600\aide\Chute.rtf=No
+C:\Hydraulique\bo_v800_600\aide\conduite.rtf=No
+C:\Hydraulique\bo_v800_600\aide\Décantation.rtf=No
+C:\Hydraulique\bo_v800_600\aide\DO.rtf=No
+C:\Hydraulique\bo_v800_600\aide\Retenue.rtf=No
+C:\Hydraulique\bo_v800_600\aide\Siphon.rtf=No
+C:\Hydraulique\bo_v800_600\aide\Stockage.rtf=No
+C:\Hydraulique\bo_v800_600\texte.bmp=No
+
+[Package|hyd_inst2|Distribution]
+Type=single
+Size=1.44 MB
+Title=Hydrouti
+
+[Package|hyd_inst2|Package]
+PackageFolder=C:\Hydraulique\bo_v800_600\instal2
+ProjectFolder=C:\Hydraulique\bo_v800_600
+ServerSideCab=
+File1=C:\Hydraulique\bo_v800_600\instal2\setup.exe
+File2=C:\Hydraulique\bo_v800_600\instal2\Setup.Lst
+File3=C:\Hydraulique\bo_v800_600\instal2\hydrouti.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|hyd_inst2|IconGroups]
+Group0=Hydrouti
+PrivateGroup0=Faux
+Parent0=$(Programs)
+
+[Package|hyd_inst2|Hydrouti]
+Icon1=hydrouti.exe
+Title1=Hydrouti
+StartIn1=$(AppPath)
+Key1=Icon1
+
+
+[Package|hydrouti_instal|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Hydraulique\bo_v800_600\instal2
+
+[Package|hydrouti_instal|Configure DAO ISAMs]
+Applicable=Yes
+Text=No
+Excel=No
+Xbase=No
+Jet 2.x=Yes
+
+[Package|hydrouti_instal|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|hydrouti_instal|Files Found]
+
+[Package|hydrouti_instal|Files Released]
+test.rtf=
+aide.rtf=
+
+[Package|hydrouti_instal|Missing Dependency Information]
+C:\Program Files\Microsoft Office\Office\MSWORD9.OLB=
+
+[Package|hydrouti_instal|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\comdlg32.ocx=
+C:\WINDOWS\SYSTEM\scrrun.dll=
+
+[Package|hydrouti_instal|Files Added]
+c:\hydraulique\bo_v800_600\aide\bte_1.rtf=
+c:\hydraulique\bo_v800_600\bv.bmp=
+c:\hydraulique\bo_v800_600\aide\bv.rtf=
+c:\hydraulique\bo_v800_600\do_bassin.bmp=
+c:\hydraulique\bo_v800_600\aide\titre.rtf=
+c:\hydraulique\bo_v800_600\aide\titrebv.rtf=
+c:\hydraulique\bo_v800_600\aide\titrech.rtf=
+c:\hydraulique\bo_v800_600\aide\titreco.rtf=
+c:\hydraulique\bo_v800_600\aide\titredec.rtf=
+c:\hydraulique\bo_v800_600\aide\titredo.rtf=
+c:\hydraulique\bo_v800_600\aide\titreret.rtf=
+c:\hydraulique\bo_v800_600\aide\titresi.rtf=
+c:\hydraulique\bo_v800_600\aide\titresto.rtf=
+c:\hydraulique\bo_v800_600\defchamps.hyo=
+c:\hydraulique\bo_v800_600\aide\chute.rtf=
+c:\hydraulique\bo_v800_600\aide\conduite.rtf=
+c:\hydraulique\bo_v800_600\aide\décantation.rtf=
+c:\hydraulique\bo_v800_600\aide\do.rtf=
+c:\hydraulique\bo_v800_600\aide\retenue.rtf=
+c:\hydraulique\bo_v800_600\aide\siphon.rtf=
+c:\hydraulique\bo_v800_600\aide\stockage.rtf=
+c:\hydraulique\bo_v800_600\texte.bmp=
+
+[Package|hydrouti_instal|Files Removed]
+
+[Package|hydrouti_instal|Files In Project]
+C:\Hydraulique\bo_v800_600\hydrouti.exe=Yes
+C:\WINDOWS\SYSTEM\msvbvm60.dll=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\VB6FR.DLL=Yes
+C:\Program Files\Fichiers communs\Microsoft Shared\DAO\Dao350.dll=Yes
+C:\WINDOWS\SYSTEM\MSJET35.DLL=Yes
+C:\WINDOWS\SYSTEM\MSJTER35.DLL=Yes
+C:\WINDOWS\SYSTEM\MSJINT35.DLL=Yes
+C:\WINDOWS\SYSTEM\VBAJET32.DLL=Yes
+C:\WINDOWS\SYSTEM\expsrv.dll=Yes
+C:\WINDOWS\SYSTEM\MSRD2X35.DLL=Yes
+C:\WINDOWS\SYSTEM\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\SYSTEM\VB5DB.DLL=Yes
+C:\WINDOWS\SYSTEM\scrrun.dll=Yes
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=Yes
+C:\WINDOWS\SYSTEM\scrrnfr.dll=Yes
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM\TABCTFR.DLL=Yes
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\SYSTEM\RCHTXFR.DLL=Yes
+C:\WINDOWS\SYSTEM\comdlg32.ocx=Yes
+C:\WINDOWS\SYSTEM\CMDLGFR.DLL=Yes
+C:\WINDOWS\SYSTEM\COMCT232.OCX=Yes
+C:\WINDOWS\SYSTEM\CMCT2FR.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Hydraulique\bo_v800_600\aide\Bte_1.rtf=Yes
+C:\Hydraulique\bo_v800_600\bv.bmp=Yes
+C:\Hydraulique\bo_v800_600\aide\BV.rtf=Yes
+C:\Hydraulique\bo_v800_600\DO_Bassin.bmp=Yes
+C:\Hydraulique\bo_v800_600\aide\Titre.rtf=Yes
+C:\Hydraulique\bo_v800_600\aide\TitreBV.rtf=Yes
+C:\Hydraulique\bo_v800_600\aide\TitreCH.rtf=Yes
+C:\Hydraulique\bo_v800_600\aide\TitreCO.rtf=Yes
+C:\Hydraulique\bo_v800_600\aide\TitreDEC.rtf=Yes
+C:\Hydraulique\bo_v800_600\aide\TitreDO.rtf=Yes
+C:\Hydraulique\bo_v800_600\aide\TitreRET.rtf=Yes
+C:\Hydraulique\bo_v800_600\aide\TitreSI.rtf=Yes
+C:\Hydraulique\bo_v800_600\aide\TitreSTO.rtf=Yes
+C:\Hydraulique\bo_v800_600\defchamps.hyo=Yes
+C:\Hydraulique\bo_v800_600\Hydrouti.dll=Yes
+C:\Hydraulique\bo_v800_600\aide\Chute.rtf=Yes
+C:\Hydraulique\bo_v800_600\aide\conduite.rtf=Yes
+C:\Hydraulique\bo_v800_600\aide\Décantation.rtf=Yes
+C:\Hydraulique\bo_v800_600\aide\DO.rtf=Yes
+C:\Hydraulique\bo_v800_600\aide\Retenue.rtf=Yes
+C:\Hydraulique\bo_v800_600\aide\Siphon.rtf=Yes
+C:\Hydraulique\bo_v800_600\aide\Stockage.rtf=Yes
+C:\Hydraulique\bo_v800_600\texte.bmp=Yes
+C:\Program Files\Microsoft Office\Office\MSWORD9.OLB=Yes
+
+[Package|hydrouti_instal|Configure Registry Files]
+Applicable=No
+
+[Package|hydrouti_instal|Configure Remote Servers]
+Applicable=No
+
+[Package|hydrouti_instal|Install Locations]
+C:\Hydraulique\bo_v800_600\hydrouti.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB6FR.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office\MSWORD8.OLB=$(WinSysPath)
+C:\Program Files\Fichiers communs\Microsoft Shared\DAO\Dao350.dll=$(MSDAOPath)
+C:\WINDOWS\SYSTEM\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VBAJET32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\scrrnfr.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTFR.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\RCHTXFR.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\CMDLGFR.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMCT232.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\CMCT2FR.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Hydraulique\bo_v800_600\aide\Aide.rtf=$(AppPath)\aide
+C:\Hydraulique\bo_v800_600\aide\Bte_1.rtf=$(AppPath)\aide
+C:\Hydraulique\bo_v800_600\bv.bmp=$(AppPath)
+C:\Hydraulique\bo_v800_600\aide\BV.rtf=$(AppPath)\aide
+C:\Hydraulique\bo_v800_600\DO_Bassin.bmp=$(AppPath)
+C:\Hydraulique\bo_v800_600\aide\test.rtf=$(AppPath)\aide
+C:\Hydraulique\bo_v800_600\aide\Titre.rtf=$(AppPath)\aide
+C:\Hydraulique\bo_v800_600\aide\TitreBV.rtf=$(AppPath)\aide
+C:\Hydraulique\bo_v800_600\aide\TitreCH.rtf=$(AppPath)\aide
+C:\Hydraulique\bo_v800_600\aide\TitreCO.rtf=$(AppPath)\aide
+C:\Hydraulique\bo_v800_600\aide\TitreDEC.rtf=$(AppPath)\aide
+C:\Hydraulique\bo_v800_600\aide\TitreDO.rtf=$(AppPath)\aide
+C:\Hydraulique\bo_v800_600\aide\TitreRET.rtf=$(AppPath)\aide
+C:\Hydraulique\bo_v800_600\aide\TitreSI.rtf=$(AppPath)\aide
+C:\Hydraulique\bo_v800_600\aide\TitreSTO.rtf=$(AppPath)\aide
+C:\Hydraulique\bo_v800_600\defchamps.hyo=$(AppPath)
+C:\Hydraulique\bo_v800_600\Hydrouti.dll=$(AppPath)
+C:\Hydraulique\bo_v800_600\aide\Chute.rtf=$(AppPath)\aide
+C:\Hydraulique\bo_v800_600\aide\conduite.rtf=$(AppPath)\aide
+C:\Hydraulique\bo_v800_600\aide\Décantation.rtf=$(AppPath)\aide
+C:\Hydraulique\bo_v800_600\aide\DO.rtf=$(AppPath)\aide
+C:\Hydraulique\bo_v800_600\aide\Retenue.rtf=$(AppPath)\aide
+C:\Hydraulique\bo_v800_600\aide\Siphon.rtf=$(AppPath)\aide
+C:\Hydraulique\bo_v800_600\aide\Stockage.rtf=$(AppPath)\aide
+C:\Hydraulique\bo_v800_600\texte.bmp=$(AppPath)
+C:\Program Files\Microsoft Office\Office\MSWORD9.OLB=$(WinSysPath)
+
+[Package|hydrouti_instal|Configure Shared Files]
+Applicable=Yes
+C:\Hydraulique\bo_v800_600\hydrouti.exe=No
+C:\Hydraulique\bo_v800_600\aide\Aide.rtf=No
+C:\Hydraulique\bo_v800_600\aide\Bte_1.rtf=No
+C:\Hydraulique\bo_v800_600\bv.bmp=No
+C:\Hydraulique\bo_v800_600\aide\BV.rtf=No
+C:\Hydraulique\bo_v800_600\DO_Bassin.bmp=No
+C:\Hydraulique\bo_v800_600\aide\test.rtf=No
+C:\Hydraulique\bo_v800_600\aide\Titre.rtf=No
+C:\Hydraulique\bo_v800_600\aide\TitreBV.rtf=No
+C:\Hydraulique\bo_v800_600\aide\TitreCH.rtf=No
+C:\Hydraulique\bo_v800_600\aide\TitreCO.rtf=No
+C:\Hydraulique\bo_v800_600\aide\TitreDEC.rtf=No
+C:\Hydraulique\bo_v800_600\aide\TitreDO.rtf=No
+C:\Hydraulique\bo_v800_600\aide\TitreRET.rtf=No
+C:\Hydraulique\bo_v800_600\aide\TitreSI.rtf=No
+C:\Hydraulique\bo_v800_600\aide\TitreSTO.rtf=No
+C:\Hydraulique\bo_v800_600\defchamps.hyo=No
+C:\Hydraulique\bo_v800_600\Hydrouti.dll=No
+C:\Hydraulique\bo_v800_600\aide\Chute.rtf=No
+C:\Hydraulique\bo_v800_600\aide\conduite.rtf=No
+C:\Hydraulique\bo_v800_600\aide\Décantation.rtf=No
+C:\Hydraulique\bo_v800_600\aide\DO.rtf=No
+C:\Hydraulique\bo_v800_600\aide\Retenue.rtf=No
+C:\Hydraulique\bo_v800_600\aide\Siphon.rtf=No
+C:\Hydraulique\bo_v800_600\aide\Stockage.rtf=No
+C:\Hydraulique\bo_v800_600\texte.bmp=No
+
+[Package|hydrouti_instal|Distribution]
+Type=multi
+Size=1.44 MB
+Title=Hydrouti v1.04
+
+[Package|hydrouti_instal|Package]
+PackageFolder=C:\Hydraulique\bo_v800_600\instal2
+ProjectFolder=C:\Hydraulique\bo_v800_600
+ServerSideCab=
+File1=C:\Hydraulique\bo_v800_600\instal2\setup.exe
+File2=C:\Hydraulique\bo_v800_600\instal2\Setup.Lst
+File3=C:\Hydraulique\bo_v800_600\instal2\hydrou1.CAB
+File4=C:\Hydraulique\bo_v800_600\instal2\hydrou2.CAB
+File5=C:\Hydraulique\bo_v800_600\instal2\hydrou3.CAB
+File6=C:\Hydraulique\bo_v800_600\instal2\hydrou4.CAB
+File7=C:\Hydraulique\bo_v800_600\instal2\hydrou5.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz
+
+[Package|hydrouti_instal|IconGroups]
+Group0=Hydrouti
+PrivateGroup0=Faux
+Parent0=$(Programs)
+
+[Package|hydrouti_instal|Hydrouti]
+Icon1=hydrouti.exe
+Title1=Hydrouti
+StartIn1=$(AppPath)
+Key1=Icon1

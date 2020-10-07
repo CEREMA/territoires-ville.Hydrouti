@@ -1,0 +1,249 @@
+[Root]
+Most Recent Package=Logiciel d'installation standard 1
+
+
+[Package|Logiciel d'installation standard 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Hydraulique\bo_v4\Package
+
+[Package|Logiciel d'installation standard 1|Configure DAO ISAMs]
+Applicable=Yes
+Text=No
+Excel=No
+Xbase=No
+Jet 2.x=No
+
+[Package|Logiciel d'installation standard 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Logiciel d'installation standard 1|Files Found]
+
+[Package|Logiciel d'installation standard 1|Files Released]
+
+[Package|Logiciel d'installation standard 1|Missing Dependency Information]
+
+[Package|Logiciel d'installation standard 1|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\comdlg32.ocx=
+C:\WINDOWS\SYSTEM\scrrun.dll=
+C:\WINDOWS\SYSTEM\msstdfmt.dll=
+
+[Package|Logiciel d'installation standard 1|Files Added]
+c:\hydraulique\bo_v4\stockage.bin=
+c:\hydraulique\bo_v4\texte.bmp=
+c:\hydraulique\bo_v4\bassin.bin=
+c:\hydraulique\bo_v4\bv.bmp=
+c:\hydraulique\bo_v4\deversoir.bin=
+c:\hydraulique\bo_v4\do_bassin.bmp=
+c:\hydraulique\bo_v4\nbassin.bin=
+c:\hydraulique\bo_v4\ouvrages.bin=
+c:\hydraulique\bo_v4\retention.bin=
+c:\hydraulique\bo_v4\service.bin=
+c:\hydraulique\bo_v4\siphon.bin=
+c:\hydraulique\bo_v4\aide\aide.rtf=
+c:\hydraulique\bo_v4\aide\bv.rtf=
+c:\hydraulique\bo_v4\aide\titre.rtf=
+c:\hydraulique\bo_v4\aide\titrebv.rtf=
+c:\hydraulique\bo_v4\aide\titrech.rtf=
+c:\hydraulique\bo_v4\aide\titredec.rtf=
+c:\hydraulique\bo_v4\aide\titredo.rtf=
+c:\hydraulique\bo_v4\aide\titreret.rtf=
+c:\hydraulique\bo_v4\aide\titresi.rtf=
+c:\hydraulique\bo_v4\aide\titresto.rtf=
+C:\Hydraulique\bo_v4\ouvrages1.bin=
+
+[Package|Logiciel d'installation standard 1|Files Removed]
+c:\hydraulique\bo_v4\aide\aide.rtf=
+c:\hydraulique\bo_v4\aide\bv.rtf=
+c:\hydraulique\bo_v4\aide\titre.rtf=
+c:\hydraulique\bo_v4\aide\titrebv.rtf=
+c:\hydraulique\bo_v4\aide\titrech.rtf=
+c:\hydraulique\bo_v4\aide\titredec.rtf=
+c:\hydraulique\bo_v4\aide\titredo.rtf=
+c:\hydraulique\bo_v4\aide\titresi.rtf=
+c:\hydraulique\bo_v4\aide\titreret.rtf=
+c:\hydraulique\bo_v4\aide\titresto.rtf=
+c:\hydraulique\bo_v4\ouvrages.bin=
+
+[Package|Logiciel d'installation standard 1|Files In Project]
+C:\Hydraulique\bo_v4\Bo_v5exe.exe=Yes
+C:\WINDOWS\SYSTEM\msvbvm60.dll=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\VB6FR.DLL=Yes
+C:\Program Files\Microsoft Office\Office\MSWORD8.OLB=Yes
+C:\WINDOWS\SYSTEM\msstdfmt.dll=Yes
+C:\WINDOWS\SYSTEM\STDFTFR.DLL=Yes
+C:\Program Files\Fichiers communs\Microsoft Shared\DAO\Dao350.dll=Yes
+C:\WINDOWS\SYSTEM\MSJET35.DLL=Yes
+C:\WINDOWS\SYSTEM\MSJTER35.DLL=Yes
+C:\WINDOWS\SYSTEM\MSJINT35.DLL=Yes
+C:\WINDOWS\SYSTEM\VBAJET32.DLL=Yes
+C:\WINDOWS\SYSTEM\expsrv.dll=Yes
+C:\WINDOWS\SYSTEM\MSRD2X35.DLL=Yes
+C:\WINDOWS\SYSTEM\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\SYSTEM\VB5DB.DLL=Yes
+C:\WINDOWS\SYSTEM\scrrun.dll=Yes
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=Yes
+C:\WINDOWS\SYSTEM\scrrnfr.dll=Yes
+C:\Program Files\Fichiers communs\SYSTEM\ADO\msado20.tlb=Yes
+C:\WINDOWS\SYSTEM\MSBIND.DLL=Yes
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM\TABCTFR.DLL=Yes
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\SYSTEM\RCHTXFR.DLL=Yes
+C:\WINDOWS\SYSTEM\comdlg32.ocx=Yes
+C:\WINDOWS\SYSTEM\CMDLGFR.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Hydraulique\bo_v4\stockage.bin=Yes
+C:\Hydraulique\bo_v4\texte.bmp=Yes
+C:\Hydraulique\bo_v4\bassin.bin=Yes
+C:\Hydraulique\bo_v4\bv.bmp=Yes
+C:\Hydraulique\bo_v4\deversoir.bin=Yes
+C:\Hydraulique\bo_v4\DO_Bassin.bmp=Yes
+C:\Hydraulique\bo_v4\nbassin.bin=Yes
+C:\Hydraulique\bo_v4\ouvrages.bin=No
+C:\Hydraulique\bo_v4\retention.bin=Yes
+C:\Hydraulique\bo_v4\service.bin=Yes
+C:\Hydraulique\bo_v4\siphon.bin=Yes
+C:\Hydraulique\bo_v4\aide\Aide.rtf=No
+C:\Hydraulique\bo_v4\aide\BV.rtf=No
+C:\Hydraulique\bo_v4\aide\Titre.rtf=No
+C:\Hydraulique\bo_v4\aide\TitreBV.rtf=No
+C:\Hydraulique\bo_v4\aide\TitreCH.rtf=No
+C:\Hydraulique\bo_v4\aide\TitreDEC.rtf=No
+C:\Hydraulique\bo_v4\aide\TitreDO.rtf=No
+C:\Hydraulique\bo_v4\aide\TitreRET.rtf=No
+C:\Hydraulique\bo_v4\aide\TitreSI.rtf=No
+C:\Hydraulique\bo_v4\aide\TitreSTO.rtf=No
+C:\Hydraulique\bo_v4\ouvrages1.bin=Yes
+
+[Package|Logiciel d'installation standard 1|Configure Registry Files]
+Applicable=No
+
+[Package|Logiciel d'installation standard 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Logiciel d'installation standard 1|Install Locations]
+C:\Hydraulique\bo_v4\Bo_v5exe.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB6FR.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Office\Office\MSWORD8.OLB=$(WinSysPath)
+C:\WINDOWS\SYSTEM\msstdfmt.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\STDFTFR.DLL=$(WinSysPath)
+C:\Program Files\Fichiers communs\Microsoft Shared\DAO\Dao350.dll=$(MSDAOPath)
+C:\WINDOWS\SYSTEM\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VBAJET32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\scrrnfr.dll=$(WinSysPath)
+C:\Program Files\Fichiers communs\SYSTEM\ADO\msado20.tlb=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTFR.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\RCHTXFR.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\CMDLGFR.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Hydraulique\bo_v4\stockage.bin=$(AppPath)
+C:\Hydraulique\bo_v4\texte.bmp=$(AppPath)
+C:\Hydraulique\bo_v4\bassin.bin=$(AppPath)
+C:\Hydraulique\bo_v4\bv.bmp=$(AppPath)
+C:\Hydraulique\bo_v4\deversoir.bin=$(AppPath)
+C:\Hydraulique\bo_v4\DO_Bassin.bmp=$(AppPath)
+C:\Hydraulique\bo_v4\nbassin.bin=$(AppPath)
+C:\Hydraulique\bo_v4\ouvrages.bin=$(AppPath)
+C:\Hydraulique\bo_v4\retention.bin=$(AppPath)
+C:\Hydraulique\bo_v4\service.bin=$(AppPath)
+C:\Hydraulique\bo_v4\siphon.bin=$(AppPath)
+C:\Hydraulique\bo_v4\aide\Aide.rtf=$(AppPath)
+C:\Hydraulique\bo_v4\aide\BV.rtf=$(AppPath)
+C:\Hydraulique\bo_v4\aide\Titre.rtf=$(AppPath)
+C:\Hydraulique\bo_v4\aide\TitreBV.rtf=$(AppPath)
+C:\Hydraulique\bo_v4\aide\TitreCH.rtf=$(AppPath)
+C:\Hydraulique\bo_v4\aide\TitreDEC.rtf=$(AppPath)
+C:\Hydraulique\bo_v4\aide\TitreDO.rtf=$(AppPath)
+C:\Hydraulique\bo_v4\aide\TitreRET.rtf=$(AppPath)
+C:\Hydraulique\bo_v4\aide\TitreSI.rtf=$(AppPath)
+C:\Hydraulique\bo_v4\aide\TitreSTO.rtf=$(AppPath)
+C:\Hydraulique\bo_v4\ouvrages1.bin=$(AppPath)
+
+[Package|Logiciel d'installation standard 1|Configure Shared Files]
+Applicable=Yes
+C:\Hydraulique\bo_v4\Bo_v5exe.exe=No
+C:\Hydraulique\bo_v4\stockage.bin=No
+C:\Hydraulique\bo_v4\texte.bmp=No
+C:\Hydraulique\bo_v4\bassin.bin=No
+C:\Hydraulique\bo_v4\bv.bmp=No
+C:\Hydraulique\bo_v4\deversoir.bin=No
+C:\Hydraulique\bo_v4\DO_Bassin.bmp=No
+C:\Hydraulique\bo_v4\nbassin.bin=No
+C:\Hydraulique\bo_v4\ouvrages.bin=No
+C:\Hydraulique\bo_v4\retention.bin=No
+C:\Hydraulique\bo_v4\service.bin=No
+C:\Hydraulique\bo_v4\siphon.bin=No
+C:\Hydraulique\bo_v4\aide\Aide.rtf=No
+C:\Hydraulique\bo_v4\aide\BV.rtf=No
+C:\Hydraulique\bo_v4\aide\Titre.rtf=No
+C:\Hydraulique\bo_v4\aide\TitreBV.rtf=No
+C:\Hydraulique\bo_v4\aide\TitreCH.rtf=No
+C:\Hydraulique\bo_v4\aide\TitreDEC.rtf=No
+C:\Hydraulique\bo_v4\aide\TitreDO.rtf=No
+C:\Hydraulique\bo_v4\aide\TitreRET.rtf=No
+C:\Hydraulique\bo_v4\aide\TitreSI.rtf=No
+C:\Hydraulique\bo_v4\aide\TitreSTO.rtf=No
+C:\Hydraulique\bo_v4\ouvrages1.bin=No
+
+[Package|Logiciel d'installation standard 1|Distribution]
+Type=multi
+Size=1.44 MB
+Title=Bohha
+
+[Package|Logiciel d'installation standard 1|Package]
+PackageFolder=C:\Hydraulique\bo_v4\Package
+ProjectFolder=C:\Hydraulique\bo_v4
+ServerSideCab=
+File1=C:\Hydraulique\bo_v4\Package\setup.exe
+File2=C:\Hydraulique\bo_v4\Package\Setup.Lst
+File3=C:\Hydraulique\bo_v4\Package\Bo_v5e1.CAB
+File4=C:\Hydraulique\bo_v4\Package\Bo_v5e2.CAB
+File5=C:\Hydraulique\bo_v4\Package\Bo_v5e3.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz
+
+[Package|Logiciel d'installation standard 1|IconGroups]
+Group0=Bo_v5
+PrivateGroup0=Faux
+Parent0=$(Programs)
+
+[Package|Logiciel d'installation standard 1|Bo_v5]
+Icon1=Bo_v5exe.exe
+Title1=bohha
+StartIn1=$(AppPath)
+Key1=Icon1
